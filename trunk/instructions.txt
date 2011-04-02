@@ -1,0 +1,6 @@
+Optional: Open the (GZ/ST)-Models/Build/ Folder. Delete what you do not want. Then go back to the extracted path.
+1: Run the Build-(GZ/ST).bat
+2: Wait for the process to finish
+3: Copy the (GZ/ST)-Models.pk3 into your Skins Folder
+4: ???
+5: Profit
