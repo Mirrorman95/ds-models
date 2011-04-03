@@ -1,0 +1,166 @@
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\MageFireball"
+   Model 0 "FireBall.md2"
+   Skin 0 "Fireball0.png"
+   Scale 0.5 0.5 0.6
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+
+   FrameIndex MSP2 A 0 0
+}
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\MageFireball"
+   Model 0 "FireBall.md2"
+   Skin 0 "Fireball2.png"
+   Scale 0.5 0.5 0.6
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+
+   FrameIndex MSP2 B 0 1
+}
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\MageFireball"
+   Model 0 "FireBall.md2"
+   Skin 0 "Fireball4.png"
+   Scale 0.5 0.5 0.6
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+
+   FrameIndex MSP2 C 0 2
+}
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\MageFireball"
+   Model 0 "FireBall.md2"
+   Skin 0 "Fireball6.png"
+   Scale 0.5 0.5 0.6
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+
+   FrameIndex MSP2 D 0 3
+}
+
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\Explosions"
+   Model 0 "Explosion.md2"
+   Skin 0 "Expl_red_i0.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex MSP2 E 0 0
+}
+
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\Explosions"
+   Model 0 "Explosion.md2"
+   Skin 0 "Expl_red_i1.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex MSP2 F 0 1
+}
+
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\Explosions"
+   Model 0 "Explosion.md2"
+   Skin 0 "Expl_red_i3.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex MSP2 G 0 2
+}
+
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\Explosions"
+   Model 0 "Explosion.md2"
+   Skin 0 "Expl_red_i5.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex MSP2 H 0 3
+}
+
+Model MageStaffFX2
+{ 
+   Path "Models\Projectiles\Explosions"
+   Model 0 "Explosion.md2"
+   Skin 0 "Expl_red_i7.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex MSP2 I 0 4
+}
+
+Model CStaffMissile 
+{ 
+	Path "Models\Projectiles\PlasmaBalls"
+	Model 0 "SerpentBall.md3"
+	Skin 0 "SerpentBall.png"
+
+
+	Scale 0.5 0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector 1 0 0
+	PitchFromMomentum
+	NOINTERPOLATION
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex CSSF D 0 0	FrameIndex CSSF D 1 0
+	FrameIndex CSSF E 0 0	FrameIndex CSSF E 1 0
+}
+
+model CStaffMissile 
+{
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "SerpentBall.md3"
+	Skin 0 "SerpentBall.png"
+	Scale 0.5 0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector 1 0 0
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex CSSF F 0 1
+	frameindex CSSF G 0 2
+	frameindex CSSF H 0 3
+	frameindex CSSF I 0 4
+}
+
+
+Model MageWandMissile 
+{ 
+	FrameIndex MWND C 0 0	FrameIndex MWND C 1 0
+	FrameIndex MWND D 0 0	FrameIndex MWND D 1 0
+}
+
+model MageWandSmoke
+{
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "SerpentBall.md3"
+	Skin 0 "MageWandBall.png"
+	Scale 0.5 0.5 0.6
+
+	Rotating
+	Rotation-Speed 5
+	Rotation-Vector 1 0 0
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex MWND C 0 0	FrameIndex MWND C 1 0
+	FrameIndex MWND D 0 0	FrameIndex MWND D 1 0
+}

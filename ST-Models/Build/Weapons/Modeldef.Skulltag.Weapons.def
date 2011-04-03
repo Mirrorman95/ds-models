@@ -1,0 +1,387 @@
+Model BFG10k
+{ 
+   Path "Models/Weapons/Pickup/BFG10k"
+   Model 0 "0029_devastator.md3"
+   Skin 0 "0029_devastator.png"
+   Scale 1.5 1.5 1.5
+
+   FrameIndex BFG2 A 0 0
+}
+
+Model Railgun
+{ 
+   Path "Models/Weapons/Pickup/Railgun"
+   Model 0 "w_gauss.md3"
+   Skin 0 "w_gauss.png"
+   Scale 1.5 1.5 1.5
+
+   FrameIndex RAIL A 0 0
+}
+
+Model GrenadeLauncher
+{ 
+   Path "Models/Weapons/Pickup/GrenadeLauncher"
+   Model 0 "GrenadeLauncher.md3"
+   Skin 0 "rl.png"
+   Model 1 "GrenadeStock.md3"
+   Skin 1 "rl2.png"
+   Scale 1.5 1.5 1.5
+
+   FrameIndex GLAU A 0 0
+
+}
+
+
+Model Minigun
+{ 
+   Path "Models/Weapons/Pickup/Minigun"
+   Model 0 "Gchain.md2"
+   Skin 0 "gchain.png"
+   Scale 1.5 1.5 1.5
+   FrameIndex MNGN A 0 0
+
+}
+
+MODEL Minigun
+{
+
+Path "Models/Weapons/Hud/Minigun"
+Model 0 "Gchain.md3"
+Skin 0 "gchain.png"
+//Model 1 "Hand.md3"
+//Skin 1 "hands.png"
+
+Scale -1.0 1.0 1.0
+ZOffset -4
+NOINTERPOLATION
+
+FrameIndex MNGG A 0 0
+}
+
+MODEL Minigun
+{
+
+Path "Models/Weapons/Hud/Minigun"
+Model 0 "Gchain2.md3"
+Skin 0 "gchain2.png"
+//Model 1 "Hand.md3"
+//Skin 1 "hands.png"
+
+Scale -1.0 1.0 1.0
+ZOffset -4
+NOINTERPOLATION
+
+FrameIndex MNGG B 0 0
+}
+
+MODEL Minigun
+{
+
+Path "Models/Weapons/Hud/Minigun"
+Model 0 "CG_MF1.md3"
+Skin 0 "MF0.png"
+Model 1 "CG_MF2.md3"
+Skin 1 "MF2.png"
+Model 2 "Gchain.md3"
+Skin 2 "gchain3.png"
+Scale -1.0 1.0 1.0
+
+ZOffset -4
+NOINTERPOLATION
+
+FrameIndex MNGF A 0 0
+}
+
+MODEL Minigun
+{
+
+Path "Models/Weapons/Hud/Minigun"
+Model 0 "CG_MF1.md3"
+Skin 0 "MF1.png"
+Model 1 "CG_MF2.md3"
+Skin 1 "MF3.png"
+Model 2 "Gchain2.md3"
+Skin 2 "gchain4.png"
+Scale -1.0 1.0 1.0
+
+ZOffset -4
+NOINTERPOLATION
+
+FrameIndex MNGF B 0 0
+}
+
+
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktex.png"
+ Model 1 "bfg10kBeam.md3"
+ Skin 1 "10ktex.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	NoInterpolation
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G E 0 0	 FrameIndex BG2G E 1 4	 FrameIndex BG2G E 2 0
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexF2.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G F 0 0	 FrameIndex BG2G F 2 1
+}
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexf3.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G G 0 0	 FrameIndex BG2G G 2 2
+}
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexf4.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G H 0 0	 FrameIndex BG2G H 2 3
+}
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexf5.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G I 0 0	 FrameIndex BG2G I 2 4
+}
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexf.png"
+ Model 2 "bfg10kplasma.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G J 0 0	 FrameIndex BG2G J 2 5
+}
+
+
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktex.png"
+ Model 1 "bfg10kBeam.md3"
+ Skin 1 "10ktex.png"
+
+	InterpolateDoubleFrames
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G A 0 0	 FrameIndex BG2G A 1 0
+ FrameIndex BG2G B 0 0	 FrameIndex BG2G B 1 1
+ FrameIndex BG2G C 0 0	 FrameIndex BG2G C 1 2
+ FrameIndex BG2G D 0 0	 FrameIndex BG2G D 1 3
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexF3.png"
+ Model 1 "bfg10kFlash.md3"
+ Skin 1 "energy_flash0.png"
+ Model 2 "bfg10kplasma2.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+ scale -1.0 1.0 1.0
+ FrameIndex BG2G K 0 1	FrameIndex BG2G K 1 1	FrameIndex BG2G K 2 1
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexF4.png"
+ Model 1 "bfg10kFlash.md3"
+ Skin 1 "energy_flash1.png"
+ Model 2 "bfg10kplasma2.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G L 0 2	FrameIndex BG2G L 1 2	FrameIndex BG2G L 2 2
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexF5.png"
+ Model 1 "bfg10kFlash.md3"
+ Skin 1 "energy_flash2.png"
+ Model 2 "bfg10kplasma2.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G M 0 3	FrameIndex BG2G M 1 3	FrameIndex BG2G M 2 3
+ FrameIndex BG2G N 0 4	FrameIndex BG2G N 1 4	FrameIndex BG2G N 2 4
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexF5.png"
+ Model 1 "bfg10kFlash.md3"
+ Skin 1 "energy_flash2.png"
+ Model 2 "bfg10kplasma2.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+ scale -1.0 1.0 1.0
+
+ FrameIndex BG2G N 0 4	FrameIndex BG2G N 1 4	FrameIndex BG2G N 2 4
+}
+
+Model BFG10K
+{
+ Path "Models/Weapons/Hud/BFG10k"
+
+ Model 0 "bfg10khud.md3"
+ skin 0 "10ktexf.png"
+ Model 1 "bfg10kFlash.md3"
+ Skin 1 "energy_flash2.png"
+ Model 2 "bfg10kplasma2.md3"
+ Skin 2 "Green_plasma_skin.png"
+
+ scale -1.0 1.0 1.0
+
+NoInterpolation
+
+ FrameIndex BG2G O 0 0	FrameIndex BG2G O 1 0	FrameIndex BG2G O 2 999
+}
+
+
+Model Railgun
+{
+   Path "Models/Weapons/Hud/Railgun"
+   Model 0 "v_gauss.md3"
+   Skin 0 "v_gauss.png"
+   Model 1 "v_gausscell.md3"
+   Skin 1 "cell.png"
+   Scale -1.0 1.0 1.0
+   ZOffset 2
+   FrameIndex RLGG A 0 0   FrameIndex RLGG A 1 0
+   FrameIndex RLGG B 0 0   FrameIndex RLGG B 1 0
+   FrameIndex RLGG C 0 0   FrameIndex RLGG C 1 0
+   FrameIndex RLGG D 0 0   FrameIndex RLGG D 1 0
+   FrameIndex RLGG E 0 1   FrameIndex RLGG E 1 1
+   FrameIndex RLGG F 0 0   FrameIndex RLGG F 1 0
+   FrameIndex RLGG G 0 4   FrameIndex RLGG G 1 4
+   FrameIndex RLGG H 0 6   FrameIndex RLGG H 1 6
+   FrameIndex RLGG I 0 5   FrameIndex RLGG I 1 5
+   FrameIndex RLGG J 0 4   FrameIndex RLGG J 1 4
+   FrameIndex RLGG K 0 3   FrameIndex RLGG K 1 3
+   FrameIndex RLGG L 0 2   FrameIndex RLGG L 1 2
+}
+
+Model GrenadeLauncher
+{ 
+   Path "Models/Weapons/Hud/GrenadeLauncher"
+
+   Model 0 "GrenadeLauncher.md3"
+   Skin 0 "rl.tga"
+
+   Scale -1.0 1.0 1.0
+
+zoffset -1
+
+   FrameIndex GRLG A 0 0
+   FrameIndex GRLG B 0 1
+}
+
+Model GrenadeLAUNCHER
+{ 
+   Path "Models/Weapons/Hud/GrenadeLauncher"
+   Model 0 "GrenadeFlash.md3"
+   Skin 0 "hud_RL_MF0.PNG"
+   Scale -1.0 1.0 1.0
+
+zoffset -1
+
+   FrameIndex GRLF A 0 1
+}
+Model GrenadeLAUNCHER
+{ 
+   Path "Models/Weapons/Hud/GrenadeLauncher"
+   Model 0 "GrenadeFlash.md3"
+   Skin 0 "hud_RL_MF1.PNG"
+   Scale -1.0 1.0 1.0
+
+zoffset -1
+
+   FrameIndex GRLF B 0 1
+}
+Model GrenadeLAUNCHER
+{ 
+   Path "Models/Weapons/Hud/GrenadeLauncher"
+   Model 0 "GrenadeFlash.md3"
+   Skin 0 "hud_RL_MF2.PNG"
+   Scale -1.0 1.0 1.0
+
+zoffset -1
+
+   FrameIndex GRLF C 0 1
+}
+Model GrenadeLAUNCHER
+{ 
+   Path "Models/Weapons/Hud/GrenadeLauncher"
+   Model 0 "GrenadeFlash.md3"
+   Skin 0 "hud_RL_MF3.PNG"
+   Scale -1.0 1.0 1.0
+
+zoffset -1
+
+   FrameIndex GRLF D 0 1
+}
