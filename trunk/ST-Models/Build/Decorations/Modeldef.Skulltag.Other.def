@@ -1,0 +1,537 @@
+Model ArchvileStatue
+{
+   Path "Models/Decoration/Statues"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Scale 1.25 1.25 1.5
+
+   FrameIndex STA3 A 0 0
+}
+
+
+Model ImpStatue
+{
+   Path "Models/Decoration/Statues"
+   Model 0 "Imp.md2"
+   Model 1 "Imp-Hand.md2"
+   skin 0 "IMP_SKin.png"
+   skin 1 "IMP_SKin.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex STA1 A 0 0
+}
+
+Model CyberdemonStatue
+{ 
+   Path "Models/Decoration/Statues"
+   Model 0 "Cybr.md2"
+   Model 1 "Cybrw.md2"
+   Model 2 "Cybrwea.md2"
+   Skin 0 "cybr0.png"
+   Skin 1 "cybrw0.png"
+   Skin 2 "cybrwea0.png"
+   Scale 0.625 0.625 0.625
+
+   FrameIndex STA5 A 0 8	   FrameIndex STA5 A 1 8	   FrameIndex STA5 A 2 8
+}
+Model BaronStatue
+{
+   Path "Models/Decoration/Statues"
+   Model 0 "bruiser_body.dmd"
+   Model 1 "bruiser_head.dmd"
+   skin 0 "Baron_SKIN.png"
+   skin 1 "Baron_h0.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex STA4 A 0 15		   FrameIndex STA4 A 1 15
+}
+
+Model Demonstatue
+{
+   Path "Models/Decoration/Statues"
+   Model 0 "demon.md2"
+   skin 0 "Skindemon.png"
+   Scale 0.5 0.5 0.5
+
+   FrameIndex STA2 A 0 2
+}
+
+Model BlueColumn
+{ 
+   Path "Models/Decoration/Lights/Column"
+   Model 0 "SmallLamp.md2"
+   Skin 0 "SmallLampB.png"
+   Model 1 "SmallLamp_Glass.md2"
+   Skin 1 "SmallLampB.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex BCOL A 0 0
+}
+
+Model RedColumn
+{ 
+   Path "Models/Decoration/Lights/Column"
+   Model 0 "SmallLamp.md2"
+   Skin 0 "SmallLampR.png"
+   Model 1 "SmallLamp_Glass.md2"
+   Skin 1 "SmallLampR.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex RCOL A 0 0
+}
+Model RedTechLamp
+{ 
+   Path "Models/Decoration/Lights/BigTechLamp"
+   Model 0 "Biglamp.md2"
+   Model 1 "biglamp_glass.md2"
+   Skin 0 "BiglampR.png"
+   Skin 1 "biglampR.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex TLP3 A 0 0
+   FrameIndex TLP3 B 0 0
+   FrameIndex TLP3 C 0 0
+   FrameIndex TLP3 D 0 0
+}
+
+Model RedTechLamp2
+{ 
+   Path "Models/Decoration/Lights/TechLamp"
+   Model 0 "Mediumlamp.md2"
+   Model 1 "MediumLamp_Glass.md2"
+   Model 2 "MediumLamp_Disc.md2"
+   Skin 0 "MediumlampR.png"
+   Skin 1 "MediumlampR.png"
+   Skin 2 "MediumLamp_Disc.tga"
+   Scale 0.175 0.175 0.175
+
+   FrameIndex TLP4 A 0 0
+   FrameIndex TLP4 B 0 0
+   FrameIndex TLP4 C 0 0
+   FrameIndex TLP4 D 0 0
+}
+Model RedEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circler.png"
+   Skin 2 "candlestikr.png"
+   skin 3 "candleflame1r.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+   FrameIndex CEYR A 0 0	   FrameIndex CEYR A 1 10	   FrameIndex CEYR A 2 0	   FrameIndex CEYR A 3 0
+}
+Model RedEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circler2.png"
+   Skin 2 "candlestikr.png"
+   skin 3 "candleflame1r.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+   FrameIndex CEYR b 0 0	   FrameIndex CEYR B 1 10	   FrameIndex CEYR B 2 0	   FrameIndex CEYR B 3 0
+}
+Model RedEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circler3.png"
+   Skin 2 "candlestikr.png"
+   skin 3 "candleflame1r.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+   FrameIndex CEYR c 0 0	   FrameIndex CEYR C 1 10	   FrameIndex CEYR C 2 0	   FrameIndex CEYR C 3 0
+}
+
+Model BlueEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circleb.png"
+   Skin 2 "candlestikb.png"
+   skin 3 "candleflame1b.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYB A 0 0	   FrameIndex CEYB A 1 10	   FrameIndex CEYB A 2 0	   FrameIndex CEYB A 3 0
+}
+Model BlueEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circleb2.png"
+   Skin 2 "candlestikb.png"
+   skin 3 "candleflame1b.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYB b 0 0	   FrameIndex CEYB B 1 10	   FrameIndex CEYB B 2 0	   FrameIndex CEYB B 3 0
+}
+Model BlueEvilEye
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circleb3.png"
+   Skin 2 "candlestikb.png"
+   skin 3 "candleflame1b.png"
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYB c 0 0	   FrameIndex CEYB C 1 10	   FrameIndex CEYB C 2 0	   FrameIndex CEYB C 3 0
+}
+Model Stalagmite
+{
+   Path "Models/decoration/tree"
+   model 0 "Stalag.md2"
+   skin 0 "StalagGrey.png"
+   scale 1.0 1.0 1.5
+
+   FrameIndex SMT2 A 0 0
+}
+Model TallGothicColumn
+{
+   Path "Models/decoration/pilar"
+   model 0 "Tallpillar.md2"
+   skin 0 "greyStone2.png"
+   scale 1.0 1.0 1.25
+
+   FrameIndex GCOL A 0 0
+}
+Model tallGreycolumn
+{
+   Path "Models/decoration/pilar"
+   model 0 "Tallpillar.md2"
+   skin 0 "greyStone2.png"
+   scale 1.0 1.0 1.25
+
+   FrameIndex COL7 A 0 0
+}
+
+Model Greycolumn
+{
+   Path "Models/decoration/pilar"
+   model 0 "stonepillar.md2"
+   skin 0 "Greystonepillar.png"
+   scale 1.0 1.0 1.25
+
+   FrameIndex COL8 A 0 0
+}
+Model GreyHEARTcolumn
+{
+   Path "Models/decoration/pilar"
+   model 0 "stonepillar.md2"
+   model 1 "heart.md3"
+   skin 0 "Greyheartpillar.png"
+   skin 1 "heart.png"
+   scale 1.0 1.0 1.25
+
+   FrameIndex COL9 A 0 0	   FrameIndex COL9 A 1 0
+   FrameIndex COL9 B 0 0	   FrameIndex COL9 B 1 1
+}
+
+Model FloatingBobbingSkull
+{
+   Path "Models/Decoration/misc"
+   model 0 "floatskull.md3"
+   skin 0 "floatskull.png"
+   scale 1.0 1.0 1.0
+   Rotating
+
+   FrameIndex FSKU A 0 0
+   FrameIndex FSKU B 0 0
+   FrameIndex FSKU C 0 0
+}
+
+
+Model BlueCandlestick
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Candlestick.md2"
+   model 1 "Candleflame.md3"
+   skin 0 "candlestikb.png"
+   skin 1 "candleflame1b.png"
+   scale 0.5 0.5 0.5
+
+   FrameIndex CANB A 0 0	   FrameIndex CANB A 1 0
+}
+
+Model RedCandlestick
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Candlestick.md2"
+   model 1 "Candleflame.md3"
+   skin 0 "candlestikr.png"
+   skin 1 "candleflame1r.png"
+   scale 0.5 0.5 0.5
+
+   FrameIndex CANR A 0 0	   FrameIndex CANR A 1 0
+}
+Model yellowTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_Yellow_1.png"
+   skin 1 "TallTorch_Yellow.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TYEL A 0 0
+}
+Model yellowTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_Yellow_3.png"
+   skin 1 "TallTorch_Yellow.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TYEL B 0 2
+}
+Model yellowTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_Yellow_5.png"
+   skin 1 "TallTorch_Yellow.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TYEL C 0 1
+}
+Model yellowTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_Yellow_7.png"
+   skin 1 "TallTorch_Yellow.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TYEL D 0 3
+}
+
+Model whiteTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_White_1.png"
+   skin 1 "TallTorch_White.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TWHI A 0 0
+}
+Model whiteTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_White_3.png"
+   skin 1 "TallTorch_White.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TWHI B 0 2
+}
+Model whiteTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_White_5.png"
+   skin 1 "TallTorch_White.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TWHI C 0 1
+}
+Model whiteTorch
+{
+   Path "Models/Decoration/Lights/Flaming"
+   model 0 "Fire3.MD3"
+   model 1 "TallTorch.md2"
+   skin 0 "Flame_White_7.png"
+   skin 1 "TallTorch_White.png"
+   scale 0.65 0.65 0.65
+
+   FrameIndex TWHI D 0 3
+}
+
+Model ShortYellowTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_Yellow_1.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMYT A 0 0   FrameIndex SMYT A 1 0
+}
+Model ShortYellowTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_Yellow_3.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMYT B 0 2   FrameIndex SMYT B 1 0
+}
+Model ShortYellowTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_Yellow_5.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMYT C 0 1   FrameIndex SMYT C 1 0
+}
+Model ShortYellowTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_Yellow_7.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMYT D 0 3   FrameIndex SMYT D 1 0
+}
+Model ShortWhiteTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_White_1.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMWT A 0 0   FrameIndex SMWT A 1 0
+}
+Model ShortWhiteTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_White_3.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMWT B 0 2   FrameIndex SMWT B 1 0
+}
+Model ShortWhiteTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_White_5.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMWT C 0 1   FrameIndex SMWT C 1 0
+}
+Model ShortWhiteTorch
+{
+   Path "Models/decoration/Lights/Flaming"
+   model 0 "Fire1.md3"
+   Model 1 "FireStick.md3"
+   skin 0 "Flame_White_7.png"
+   skin 1 "FireStick.png"
+   scale 0.6 0.6 0.6
+
+   FrameIndex SMWT D 0 3   FrameIndex SMWT D 1 0
+}
+
+Model ImpalingSpike
+{
+   Path "Models/decoration/MEAT"
+   model 0 "pole.md2"
+   skin 0 "impaled1.png"
+   scale 1.0 1.0 1.0
+
+   FrameIndex POL7 A 0 0
+}
+
+Model ImpalingSpike9
+{
+   Path "Models/decoration/MEAT"
+   model 1 "pole.md2"
+   model 0 "Marineextra.md2"
+   skin 1 "impaled1.png"
+   skin 0 "MARINE_G.png"
+   scale 1.0 1.0 1.0
+
+   FrameIndex POLF A 0 11	   FrameIndex POLF A 1 0
+   FrameIndex POLF B 0 11	   FrameIndex POLF B 1 0
+}
+
+Model ImpalingSpike10
+{
+   Path "Models/decoration/MEAT"
+   model 1 "pole.md2"
+   model 0 "Marineextra.md2"
+   skin 1 "impaled1.png"
+   skin 0 "MARINE_G.png"
+   scale 1.0 1.0 1.0
+
+   FrameIndex POLG A 0 11	   FrameIndex POLG A 1 0
+}
+Model ImpalingSpike11
+{
+   Path "Models/decoration/MEAT"
+   model 1 "pole.md2"
+   model 0 "Marineextra.md2"
+   skin 1 "impaled1.png"
+   skin 0 "MARINE_G.png"
+   scale 1.0 1.0 1.0
+
+   FrameIndex POLH A 0 13	   FrameIndex POLH A 1 0
+}
+
+
+Model ItemFog
+{
+	path "Models\Projectiles\PlasmaBalls"
+	
+	model 0 "plasma_boom.md3"
+	skin 0 "plasma_blue_2.png"
+	Scale 1.0 1.0 1.0
+        ZOffset 4
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex IFOG A 0 1
+	frameindex IFOG B 0 2
+	frameindex IFOG C 0 3
+	frameindex IFOG D 0 4
+	frameindex IFOG E 0 5
+}

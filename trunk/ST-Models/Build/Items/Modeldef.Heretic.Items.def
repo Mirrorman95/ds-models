@@ -1,0 +1,45 @@
+Model GoldWandAmmo 
+{
+	Path "Models\Items\Ammo\GoldCrystal"
+	
+	Model 0 "ammo-crystal.md2"
+	Skin 0 "wand-ammo.png"
+
+	Scale 2.0 2.0 2.0
+
+	FrameIndex AMG1 A 0 0
+}
+
+Model GoldWandHefty 
+{
+	Path "Models\Items\Ammo\GoldCrystal"
+	
+	Model 0 "ammo-geode.md2"
+	Skin 0 "wand-ammo1.png"
+
+	Scale 3.0 3.0 3.0
+
+	FrameIndex AMG2 A 0 0
+}
+Model GoldWandHefty 
+{
+	Path "Models\Items\Ammo\GoldCrystal"
+	
+	Model 0 "ammo-geode.md2"
+	Skin 0 "wand-ammo2.png"
+
+	Scale 3.0 3.0 3.0
+
+	FrameIndex AMG2 B 0 0
+}
+Model GoldWandHefty 
+{
+	Path "Models\Items\Ammo\GoldCrystal"
+	
+	Model 0 "ammo-geode.md2"
+	Skin 0 "wand-ammo3.png"
+
+	Scale 3.0 3.0 3.0
+
+	FrameIndex AMG2 C 0 0
+}

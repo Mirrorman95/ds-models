@@ -1,0 +1,675 @@
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "Manc2.png"
+   MODEL 0 "MANC.md2"
+   Scale 1.25 1.25 1.25
+
+
+   FrameIndex HECT A 0 0
+   FrameIndex HECT B 0 1
+   FrameIndex HECT C 0 2
+   FrameIndex HECT D 0 3
+   FrameIndex HECT E 0 4
+   FrameIndex HECT F 0 5
+   FrameIndex HECT G 0 6
+
+   FrameIndex HECT I 0 8
+   FrameIndex HECT J 0 9
+}
+
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "mancDIE22.png"
+   SKIN 1 "Manc2.png"
+   MODEL 0 "Mancdeath_4.md2"
+   MODEL 1 "Mancdeath_4_guns.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+
+   FrameIndex HECT P 0 1
+   FrameIndex HECT Q 0 2
+   FrameIndex HECT R 0 4
+   FrameIndex HECT S 0 5
+   FrameIndex HECT T 0 6
+
+}
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "mancDIE02.png"
+   SKIN 1 "Manc2.png"
+   MODEL 0 "Mancdeath_2.md2"
+   MODEL 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+
+NOINTERPOLATION
+   FrameIndex HECT N 0 6    FrameIndex HECT N 1 6
+   FrameIndex HECT O 0 7    FrameIndex HECT O 1 7
+
+}
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "MancDIE02.png"
+   SKIN 1 "Manc2.png"
+   SKIN 2 "MancE1.PNG"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex HECT K 0 0    FrameIndex HECT K 1 0	FrameIndex HECT K 2 0
+
+}
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "MancDIE02.png"
+   SKIN 1 "Manc2.png"
+   SKIN 2 "MancE2.PNG"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex HECT L 0 2    FrameIndex HECT L 1 2	FrameIndex HECT L 2 2
+
+}
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "MancDIE02.png"
+   SKIN 1 "Manc2.png"
+   SKIN 2 "MancE3.PNG"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex HECT M 0 4    FrameIndex HECT M 1 4	FrameIndex HECT M 2 4
+
+}
+
+Model HECTEBUS
+{ 
+   Path "Models/Monsters/HECTEBUS"
+   SKIN 0 "Mancfire2.png"
+   MODEL 0 "Manc.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex HECT H 0 7
+
+}
+
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_0.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 A 0 2	FrameIndex BOS3 A 1 2	FrameIndex BOS3 A 2 2
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_1.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 B 0 4	FrameIndex BOS3 B 1 4	FrameIndex BOS3 B 2 4
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_2.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 C 0 6	FrameIndex BOS3 C 1 6	FrameIndex BOS3 C 2 6
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_3.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 D 0 8	FrameIndex BOS3 D 1 8	FrameIndex BOS3 D 2 8
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_4.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 E 0 13	FrameIndex BOS3 E 1 13	FrameIndex BOS3 E 2 13
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_5.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 F 0 14	FrameIndex BOS3 F 1 14	FrameIndex BOS3 F 2 14
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_6.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 G 0 15	FrameIndex BOS3 G 1 15	FrameIndex BOS3 G 2 15
+}
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_7.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS3 H 0 18	FrameIndex BOS3 H 1 18	FrameIndex BOS3 H 2 18
+}
+
+Model belphegor
+{ 
+   Path "Models/Monsters/belphegor"
+   SKIN 1 "Death.png"
+   MODEL 1 "BaronOfHell_Death.md2"
+   Scale 0.5 0.5 0.5
+
+
+
+FrameIndex BOS3 I 1 0	
+FrameIndex BOS3 J 1 1	
+FrameIndex BOS3 K 1 2	
+FrameIndex BOS3 L 1 3	
+FrameIndex BOS3 M 1 4	
+FrameIndex BOS3 N 1 5	
+FrameIndex BOS3 O 1 6	
+}
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+
+   Scale 10.0 10.0 10.0
+
+
+   FrameIndex HED2 A 0 0   FrameIndex HED2 A 1 0   FrameIndex HED2 A 2 0
+
+   FrameIndex HED2 E 0 2   FrameIndex HED2 E 1 2   FrameIndex HED2 E 2 2
+   FrameIndex HED2 F 0 3   FrameIndex HED2 F 1 3   FrameIndex HED2 F 2 3
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_2.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 B 0 61   FrameIndex HED2 B 1 61   FrameIndex HED2 B 2 61
+   FrameIndex HED2 C 0 64   FrameIndex HED2 C 1 64   FrameIndex HED2 C 2 64
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_3.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 D 0 67   FrameIndex HED2 D 1 67   FrameIndex HED2 D 2 67
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_pain1.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 G 0 16   FrameIndex HED2 G 1 16   FrameIndex HED2 G 2 16
+}
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_pain2.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 H 0 17   FrameIndex HED2 H 1 17   FrameIndex HED2 H 2 17
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 I 0 18   FrameIndex HED2 I 1 18   FrameIndex HED2 I 2 18
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   NOINTERPOLATION
+
+   FrameIndex HED2 J 0 19   FrameIndex HED2 J 1 19   FrameIndex HED2 J 2 19
+}
+
+Model Cacolantern
+{ 
+   Path "Models/Monsters/Cacolantern"
+   Skin 0 "caco_death.png"
+   Model 0 "Cacodemon-Corpse.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED2 K 0 0
+   FrameIndex HED2 L 0 1
+}
+
+
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+
+   Scale 10.0 10.0 10.0
+
+
+   FrameIndex HED3 A 0 0   FrameIndex HED3 A 1 0   FrameIndex HED3 A 2 0
+
+   FrameIndex HED3 E 0 2   FrameIndex HED3 E 1 2   FrameIndex HED3 E 2 2
+   FrameIndex HED3 F 0 3   FrameIndex HED3 F 1 3   FrameIndex HED3 F 2 3
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_2.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 B 0 61   FrameIndex HED3 B 1 61   FrameIndex HED3 B 2 61
+   FrameIndex HED3 C 0 64   FrameIndex HED3 C 1 64   FrameIndex HED3 C 2 64
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_3.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 D 0 67   FrameIndex HED3 D 1 67   FrameIndex HED3 D 2 67
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_pain1.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 G 0 16   FrameIndex HED3 G 1 16   FrameIndex HED3 G 2 16
+}
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_pain2.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 H 0 17   FrameIndex HED3 H 1 17   FrameIndex HED3 H 2 17
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 I 0 18   FrameIndex HED3 I 1 18   FrameIndex HED3 I 2 18
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   NOINTERPOLATION
+
+   FrameIndex HED3 J 0 19   FrameIndex HED3 J 1 19   FrameIndex HED3 J 2 19
+}
+
+Model Abaddon
+{ 
+   Path "Models/Monsters/Abaddon"
+   Skin 0 "caco_death.png"
+   Model 0 "Cacodemon-Corpse.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HED3 K 0 0
+   FrameIndex HED3 L 0 1
+}
+
+
+
+Model BloodDEMON
+{ 
+   Path "Models/Monsters/BloodDemon"
+   SKIN 0 "Skindemon.png"
+   SKIN 1 "Skindemondie.png"
+   MODEL 0 "base.md2"
+   MODEL 1 "Death.md2"
+   Scale 1.0 1.0 1.0
+
+
+   FrameIndex SRG2 A 0 2	FrameIndex SRG2 A 1 999
+   FrameIndex SRG2 B 0 4	FrameIndex SRG2 B 1 999
+   FrameIndex SRG2 C 0 7	FrameIndex SRG2 C 1 999
+   FrameIndex SRG2 D 0 9	FrameIndex SRG2 D 1 999
+   FrameIndex SRG2 E 0 13	FrameIndex SRG2 E 1 999
+   FrameIndex SRG2 F 0 14	FrameIndex SRG2 F 1 999
+   FrameIndex SRG2 G 0 15	FrameIndex SRG2 G 1 999
+   FrameIndex SRG2 H 0 18	FrameIndex SRG2 H 1 999
+   FrameIndex SRG2 I 0 999	FrameIndex SRG2 I 1 0
+   FrameIndex SRG2 J 0 999	FrameIndex SRG2 J 1 1
+   FrameIndex SRG2 K 0 999	FrameIndex SRG2 K 1 2
+   FrameIndex SRG2 L 0 999	FrameIndex SRG2 L 1 3
+   FrameIndex SRG2 M 0 999	FrameIndex SRG2 M 1 4
+   FrameIndex SRG2 N 0 999	FrameIndex SRG2 N 1 5
+}
+Model DARKIMP
+{ 
+   Path "Models/Monsters/DarkImp"
+   SKIN 0 "IMP_SKin.png"
+   Skin 1 "IMP_SKin.png"
+   Model 1 "Imp-Hand.md2"
+   MODEL 0 "Imp.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex DIMP A 0 1	   FrameIndex DIMP A 1 1
+   FrameIndex DIMP B 0 3	   FrameIndex DIMP B 1 3
+   FrameIndex DIMP C 0 5	   FrameIndex DIMP C 1 5
+   FrameIndex DIMP D 0 7	   FrameIndex DIMP D 1 7
+   FrameIndex DIMP H 0 23	   FrameIndex DIMP H 1 23
+}
+Model DARKIMP
+{ 
+   Path "Models/Monsters/DarkImp"
+   SKIN 0 "IMP_SKin.png"
+   Skin 1 "IMP_SKinCharge.png"
+   Model 1 "Imp-Hand.md2"
+   MODEL 0 "Imp.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex DIMP E 0 10	   FrameIndex DIMP E 1 10
+   FrameIndex DIMP F 0 12	   FrameIndex DIMP F 1 12
+   FrameIndex DIMP G 0 13	   FrameIndex DIMP G 1 13
+}
+
+Model DARKIMP
+{ 
+   Path "Models/Monsters/DarkImp"
+   SKIN 1 "IMP_Pain2.png"
+   SKIN 2 "gibs.png"
+   MODEL 1 "ImpDeath.md2"
+   Model 2 "gibs.md2"
+   Scale 1.25 1.25 1.25
+
+FrameIndex DIMP I 1 1	FrameIndex DIMP I 2 999
+FrameIndex DIMP J 1 2	FrameIndex DIMP J 2 999
+FrameIndex DIMP K 1 3	FrameIndex DIMP K 2 999
+FrameIndex DIMP L 1 4	FrameIndex DIMP L 2 999
+FrameIndex DIMP M 1 5	FrameIndex DIMP M 2 999	
+FrameIndex DIMP N 1 999	FrameIndex DIMP N 2 0	
+FrameIndex DIMP O 1 999	FrameIndex DIMP O 2 2
+FrameIndex DIMP P 1 999	FrameIndex DIMP P 2 4	
+FrameIndex DIMP Q 1 999	FrameIndex DIMP Q 2 6	
+FrameIndex DIMP R 1 999	FrameIndex DIMP R 2 8	
+FrameIndex DIMP S 1 999	FrameIndex DIMP S 2 8	
+FrameIndex DIMP T 1 999	FrameIndex DIMP T 2 8	
+FrameIndex DIMP U 1 999	FrameIndex DIMP U 2 8	
+}
+Model SuperShotgunguy
+{ 
+   Path "Models/Monsters/Soldiers"
+   SKIN 0 "sargeant-ssg.png"
+   SKIN 1 "h_spos5.png"
+   SKIN 2 "cv_shotgun.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   MODEL 2 "weapon_shotty.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex GPOS A 0 0	FrameIndex GPOS A 1 0	FrameIndex GPOS A 2 0
+   FrameIndex GPOS B 0 2	FrameIndex GPOS B 1 2	FrameIndex GPOS B 2 2
+   FrameIndex GPOS C 0 4	FrameIndex GPOS C 1 4	FrameIndex GPOS C 2 4
+   FrameIndex GPOS D 0 6	FrameIndex GPOS D 1 6	FrameIndex GPOS D 2 6
+   FrameIndex GPOS E 0 9	FrameIndex GPOS E 1 9	FrameIndex GPOS E 2 9
+   FrameIndex GPOS G 0 54	FrameIndex GPOS G 1 22	FrameIndex GPOS G 2 11
+   FrameIndex GPOS H 0 54	FrameIndex GPOS H 1 22	FrameIndex GPOS H 2 11
+   FrameIndex GPOS O 0 54	FrameIndex GPOS O 1 22	FrameIndex GPOS O 2 11
+
+
+}
+
+Model SuperShotgunguy
+{ 
+   Path "Models/Monsters/Soldiers"
+   SKIN 0 "sargeant-ssg-Fire.png"
+   SKIN 1 "h_spos5.png"
+   SKIN 2 "cv_shotgun.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   MODEL 2 "weapon_shotty.md2"
+   Scale 0.9 0.9 0.9
+
+   FrameIndex GPOS F 0 10	   FrameIndex GPOS F 1 10	   FrameIndex GPOS F 2 10
+
+}
+
+Model SuperShotgunguy
+{ 
+   Path "Models/Monsters/Soldiers"
+   SKIN 0 "sargeant-ssg.png"
+   SKIN 1 "h_spos5.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex GPOS I 0 58	FrameIndex GPOS I 1 26
+   FrameIndex GPOS J 0 60	FrameIndex GPOS J 1 28
+   FrameIndex GPOS K 0 62	FrameIndex GPOS K 1 30
+   FrameIndex GPOS L 0 64	FrameIndex GPOS L 1 32
+   FrameIndex GPOS M 0 64	FrameIndex GPOS M 1 32
+   FrameIndex GPOS N 0 64	FrameIndex GPOS N 1 32
+}
+
+
+Model SuperShotgunguy
+{ 
+   Path "Models/Monsters/Soldiers"
+   Model 2 "GIBS.md2"
+   Skin 2 "GIBS.png"
+   Scale 1.1 1.1 1.1
+
+   FrameIndex GPOS P 2 0
+   FrameIndex GPOS Q 2 2
+   FrameIndex GPOS R 2 4
+   FrameIndex GPOS S 2 6
+   FrameIndex GPOS T 2 8
+}
+
+Model DeadCyberDemon
+{ 
+   Path "Models/Monsters/CyberDemon"
+   Model 0 "Cybrdie.md2"
+   Model 1 "Cybrdwea.md2"
+   Skin 0 "cybr3.png"
+   Skin 1 "cybrwea0.png"
+   Scale 0.625 0.625 0.625
+
+   FrameIndex CYBR P 0 12	   FrameIndex CYBR P 1 12
+}

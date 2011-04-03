@@ -1,0 +1,190 @@
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_1.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF A 0 0   FrameIndex MSTF A 1 0   FrameIndex MSTF A 2 0   FrameIndex MSTF A 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_2.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF B 0 0   FrameIndex MSTF B 1 0   FrameIndex MSTF B 2 0   FrameIndex MSTF B 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_3.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF C 0 0   FrameIndex MSTF C 1 0   FrameIndex MSTF C 2 0   FrameIndex MSTF C 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_4.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF D 0 0   FrameIndex MSTF D 1 0   FrameIndex MSTF D 2 0   FrameIndex MSTF D 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_5.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF E 0 0   FrameIndex MSTF E 1 0   FrameIndex MSTF E 2 0   FrameIndex MSTF E 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_6.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF F 0 0   FrameIndex MSTF F 1 0   FrameIndex MSTF F 2 0   FrameIndex MSTF F 3 0
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_2.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull_Fx_1.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF G 0 1   FrameIndex MSTF G 1 1   FrameIndex MSTF G 2 1   FrameIndex MSTF G 3 1
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_3.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull_Fx_2.png"
+
+	ZOffset 4
+   
+   FrameIndex MSTF H 0 2   FrameIndex MSTF H 1 2   FrameIndex MSTF H 2 2   FrameIndex MSTF H 3 2
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_4.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull_Fx_3.png"
+   
+	ZOffset 4
+   
+   FrameIndex MSTF I 0 3   FrameIndex MSTF I 1 3   FrameIndex MSTF I 2 3   FrameIndex MSTF I 3 3
+}
+Model MWeapBloodscourge 
+{
+   Path "Models/Weapons/Hud/Bloodscourge"
+   Model 0 "Bloodscourge_Claw_High.md2"
+   Skin 0 "Bloodscourge_Claw_High.png"
+
+   Model 1 "Bloodscourge_Crystal.md2"
+   Skin 1 "Bloodscourge_Crystal_5.png"
+
+   Model 2 "Bloodscourge_Staff.md2"
+   Skin 2 "Bloodscourge_Staff.png"
+
+   Model 3 "Bloodscourge_Skull.md2"
+   Skin 3 "Bloodscourge_Skull_Fx_4.png"
+   
+	ZOffset 4
+   
+   FrameIndex MSTF J 0 4   FrameIndex MSTF J 1 4   FrameIndex MSTF J 2 4   FrameIndex MSTF J 3 4
+}

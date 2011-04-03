@@ -1,0 +1,9 @@
+Model MarineHelmetGibs
+{
+   Path "Models/Player"
+   model 0 "Marine_Squished.md2"
+   Skin 0 "Marine_Squished.png"
+   scale 1.0 1.0 1.0
+
+   FrameIndex GIB1 A 0 8
+}

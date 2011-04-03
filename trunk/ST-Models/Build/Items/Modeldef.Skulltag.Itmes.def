@@ -1,0 +1,656 @@
+Model MaxArmorBonus
+{
+   Path "Models/Items/Armour"
+   Model 0 "armorhelmet.md3"
+   skin 0 "armorhelmet2.png"
+   Model 1 "armorhelmet_eyeglow.md3"
+   skin 1 "armorhelmet_eyeglow2.png"
+   Scale 0.75 0.75 0.75
+
+   FrameIndex BON4 A 0 0
+   FrameIndex BON4 B 0 0
+   FrameIndex BON4 C 0 0
+   FrameIndex BON4 D 0 0
+}
+
+
+Model RegenerationRune
+{
+   Path "Models/Items/Runes/Regeneration"
+   Model 0 "regen.md3"
+   skin 0 "map2.png"
+   Scale 1.0 1.0 1.0
+   Rotating
+   zoffset 12
+   
+
+   FrameIndex REGR A 0 0
+   FrameIndex REGR B 0 0
+}
+
+
+Model redArmor
+{
+   Path "Models/Items/Armour"
+   Model 0 "arm1.md2"
+   Skin 0 "arm3.png"
+   Scale 1.0 1.0 1.0
+
+   FrameIndex ARM3 A 0 0
+   FrameIndex ARM3 b 0 0
+}
+
+
+Model MaxHealthBonus
+{ 
+   Path "Models/Items/Health/Potion"
+   Model 0 "HealthPotion.md2"
+   Skin 0 "RedHealthPotion.png"
+   Scale 1.5 1.5 1.5
+
+   FrameIndex BON3 A 0 0
+   FrameIndex BON3 C 0 0
+}
+
+
+Model MaxHealthBonus
+{ 
+   Path "Models/Items/Health/Potion"
+   Model 0 "HealthPotion.md2"
+   Skin 0 "RedHealthPotion2.png"
+   Scale 1.5 1.5 1.5
+
+   FrameIndex BON3 B 0 0
+   FrameIndex BON3 D 0 0
+}
+
+Model hereticredskull 
+{ 
+   Path "Models/Items/Keys/Skulls"
+   Model 0 "RP-SkullKey.dmd"
+   Skin 0 "SkullKey_Blue.png"
+   Scale 0.75 0.75 0.75
+
+   FrameIndex BSKU A 0 0
+   FrameIndex BSKU B 0 0
+}
+
+Model hereticblueskull 
+{ 
+   Path "Models/Items/Keys/Skulls"
+   Model 0 "RP-SkullKey.dmd"
+   Skin 0 "SkullKey_Red.png"
+   Scale 0.75 0.75 0.75
+
+   FrameIndex RSKU A 0 0
+   FrameIndex RSKU B 0 0
+}
+
+Model ProsperityRune 
+{ 
+   Path "Models/Items/Runes/ProsperityRune"
+   Model 0 "ProsperityRune.md3"
+   Model 1 "Flat.md3"
+   Skin 0 "MAP.png"
+   Skin 1 "FRAME2.png"
+   Scale 0.75 0.75 0.75
+   rotating
+
+   FrameIndex PRSR A 0 0   FrameIndex PRSR A 1 0
+
+}
+Model ProsperityRune 
+{ 
+   Path "Models/Items/Runes/ProsperityRune"
+   Model 0 "ProsperityRune.md3"
+   Model 1 "Flat.md3"
+   Skin 0 "MAP.png"
+   Skin 1 "FRAME3.png"
+   Scale 0.75 0.75 0.75
+   rotating
+
+   FrameIndex PRSR B 0 0   FrameIndex PRSR B 1 0
+
+}
+Model ProsperityRune 
+{ 
+   Path "Models/Items/Runes/ProsperityRune"
+   Model 0 "ProsperityRune.md3"
+   Model 1 "Flat.md3"
+   Skin 0 "MAP.png"
+   Skin 1 "FRAME4.png"
+   Scale 0.75 0.75 0.75
+   rotating
+
+   FrameIndex PRSR C 0 0   FrameIndex PRSR C 1 0
+
+}
+Model ProsperityRune 
+{ 
+   Path "Models/Items/Runes/ProsperityRune"
+   Model 0 "ProsperityRune.md3"
+   Model 1 "Flat.md3"
+   Skin 0 "MAP.png"
+   Skin 1 "FRAME5.png"
+   Scale 0.75 0.75 0.75
+   rotating
+
+   FrameIndex PRSR D 0 0   FrameIndex PRSR D 1 0
+
+}
+
+Model SpreadRune
+{
+   Path "Models/Items/Runes/SpreadRune"
+   Model 0 "SpreadSkull.md3"
+   skin 0 "Skull.png"
+   Model 1 "SkullGold.md3"
+   skin 1 "Gold.png"
+   Model 2 "SkullRuby.md3"
+   skin 2 "Ruby.png"
+   Model 3 "SkullEmerald.md3"
+   skin 3 "Emerald.png"
+   Scale 1.0 1.0 1.0
+
+   Rotating
+   Rotation-Speed 1
+
+   ZOffset 12
+   
+
+   FrameIndex SPRR A 0 0
+   FrameIndex SPRR B 0 0
+   FrameIndex SPRR C 0 0
+   FrameIndex SPRR D 0 0
+}
+
+/*
+Model TurboSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TurboSphere.md3"
+   Skin 0 "TurboSphere.PNG"
+   Model 1 "TurboSphere_Inside.md3"
+   Skin 1 "TurboSphere_surface.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TurboSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TURB A 0 0
+   FrameIndex TURB B 0 2
+   FrameIndex TURB C 0 4
+   FrameIndex TURB D 0 8
+}
+
+Model InvisibilitySphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "InvisibilityEye.md3"
+   Skin 0 "InvisibilityEye.png"
+   Model 1 "InvisibilityIris.md3"
+   Skin 1 "InvisibilityIris.tga"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvisibilitySphere_inside2.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex SINV A 0 0	FrameIndex SINV A 1 0
+   FrameIndex SINV B 0 2	FrameIndex SINV B 1 2
+   FrameIndex SINV C 0 4	FrameIndex SINV C 1 4
+   FrameIndex SINV D 0 2	FrameIndex SINV D 1 2
+}
+
+Model TimeFreezeSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TimeFreezeSphere.md3"
+   Skin 0 "TimeFreezeSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TimeFreezeSphere_Inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TIME A 0 0
+}
+Model TimeFreezeSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TimeFreezeSphere.md3"
+   Skin 0 "TimeFreezeSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TimeFreezeSphere_Inside2.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TIME B 0 4
+}
+Model TimeFreezeSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TimeFreezeSphere.md3"
+   Skin 0 "TimeFreezeSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TimeFreezeSphere_Inside3.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TIME C 0 8
+}
+Model TimeFreezeSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TimeFreezeSphere.md3"
+   Skin 0 "TimeFreezeSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TimeFreezeSphere_Inside4.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TIME D 0 12
+}
+
+Model GuardSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "GuardSphere.md3"
+   Skin 0 "GuardSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "GuardSphere_Inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex GARD A 0 0
+   FrameIndex GARD B 0 3
+   FrameIndex GARD C 0 6
+   FrameIndex GARD D 0 9
+}
+
+Model DoomSphere
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "SoulSphere.md3"
+   Skin 0 "DoomSphere.PNG"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "DoomSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex DOOM A 0 0
+   FrameIndex DOOM B 0 1
+   FrameIndex DOOM C 0 2
+   FrameIndex DOOM D 0 3
+}
+
+Model SoulSphere
+{ 
+   Path "Models\Pickup\Artifacts\PowerSpheres"
+   Model 0 "SoulSphere.md3"
+   Skin 0 "SoulSphere.PNG"
+   Model 1 "SphereInside.md3"
+   Skin 1 "SoulSphere_surface.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "SoulSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex SOUL A 0 0
+   FrameIndex SOUL B 0 2
+   FrameIndex SOUL C 0 4
+   FrameIndex SOUL D 0 8
+}
+
+Model MegaSphere
+{ 
+   Path "Models\Pickup\Artifacts\PowerSpheres"
+   Model 0 "MegaSphere.md3"
+   Skin 0 "MegaSphere.PNG"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "MegaSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex MEGA A 0 0
+   FrameIndex MEGA B 0 4
+   FrameIndex MEGA C 0 8
+   FrameIndex MEGA D 0 12
+}
+
+Model InvulnerabilitySphere
+{ 
+   Path "Models\Pickup\Artifacts\PowerSpheres"
+   Model 0 "InvulnerabilitySphere.md3"
+   Skin 0 "InvulnerabilitySphere.PNG"
+   Model 1 "InvulnerabilityEyes.md3"
+   Skin 1 "InvulnerabilityEyes.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvulnerabilitySphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex PINV A 0 0	FrameIndex PINV A 1 0
+   FrameIndex PINV B 0 4	FrameIndex PINV B 1 4
+   FrameIndex PINV C 0 8	FrameIndex PINV C 1 8
+   FrameIndex PINV D 0 12	FrameIndex PINV D 1 12
+}
+
+Model BlurSphere
+{ 
+   Path "Models\Pickup\Artifacts\PowerSpheres"
+   Model 0 "InvisibilityEye.md3"
+   Skin 0 "InvisibilityEye.png"
+   Model 1 "InvisibilityIris.md3"
+   Skin 1 "InvisibilityIris.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvisibilitySphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex PINS A 0 0	FrameIndex PINS A 1 0
+   FrameIndex PINS B 0 2	FrameIndex PINS B 1 2
+   FrameIndex PINS C 0 4	FrameIndex PINS C 1 4
+   FrameIndex PINS D 0 8	FrameIndex PINS D 1 8
+}
+
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TimeFreezeSphere.md3"
+   Skin 0 "TimeFreezeSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TimeFreezeSphere_Inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TIME A 0 0
+
+}
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "InvisibilityEye.md3"
+   Skin 0 "InvisibilityEye.png"
+   Model 1 "InvisibilityIris.md3"
+   Skin 1 "InvisibilityIris.tga"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvisibilitySphere_inside2.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex SINV A 0 0
+
+}
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "GuardSphere.md3"
+   Skin 0 "GuardSphere.PNG"
+
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "GuardSphere_Inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex GARD  A 0 0
+}
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "InvulnerabilitySphere.md3"
+   Skin 0 "InvulnerabilitySphere.PNG"
+   Model 1 "InvulnerabilityEyes.md3"
+   Skin 1 "InvulnerabilityEyes.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvulnerabilitySphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex PINV A 0 0
+
+}
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "SoulSphere.md3"
+   Skin 0 "DoomSphere.PNG"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "DoomSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex DOOM A 0 0
+
+}
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "SoulSphere.md3"
+   Skin 0 "SoulSphere.PNG"
+   Model 1 "SphereInside.md3"
+   Skin 1 "SoulSphere_surface.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "SoulSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex SOUL A 0 0
+}
+
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "MegaSphere.md3"
+   Skin 0 "MegaSphere.PNG"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "MegaSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex MEGA A 0 0
+}
+
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "TurboSphere.md3"
+   Skin 0 "TurboSphere.PNG"
+   Model 1 "TurboSphere_Inside.md3"
+   Skin 1 "TurboSphere_surface.png"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "TurboSphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex TURB A 0 0
+
+}
+
+Model RandomPowerup
+{ 
+   Path "Models/Items/Artifacts/PowerSpheres"
+   Model 0 "InvisibilityEye.md3"
+   Skin 0 "InvisibilityEye.png"
+   Model 1 "InvisibilityIris.md3"
+   Skin 1 "InvisibilityIris.tga"
+
+   Model 2 "SphereBack.md3"
+   Skin 2 "InvisibilitySphere_inside.png"
+
+   Model 3 "SphereFront.md3"
+   Skin 3 "sphere_outside.tga"
+   Scale -0.75 -0.75 0.75
+	
+	ZOffset 16
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex PINS A 0 0
+}
+*/

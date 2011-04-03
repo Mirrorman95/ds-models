@@ -1,0 +1,874 @@
+Model Bfg10kShot
+{
+	path "Models/Projectiles/PlasmaBalls"
+
+	model 0 "plasma_boom.md3"
+	model 1 "Bolt.md3"
+	skin 0 "plasma_Green.png"
+	skin 1 "Bolt_Green.png"
+	Scale 1.75 1.75 1.75
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BFE1 A 0 0	frameindex BFE1 A 1 0
+	frameindex BFE1 B 0 1	frameindex BFE1 B 1 1
+	frameindex BFE1 C 0 2	frameindex BFE1 C 1 2
+	frameindex BFE1 D 0 3	frameindex BFE1 D 1 3
+	frameindex BFE1 E 0 4	frameindex BFE1 E 1 999
+	frameindex BFE1 F 0 5	frameindex BFE1 F 1 999
+}
+Model Hectshot
+{ 
+   Path "Models/Projectiles/Mancubus-FireBall"
+   Model 0 "FireBall.dmd"
+   Skin 0 "Fire2A.png"
+	Scale 0.5 0.5 0.6
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 20
+	Rotation-Vector -1 0 0
+
+   FrameIndex HECF A 0 0
+}
+
+Model Hectshot
+{ 
+   Path "Models/Projectiles/Mancubus-FireBall"
+   Model 0 "FireBall.dmd"
+   Skin 0 "Fire2B.png"
+	Scale 0.5 0.5 0.6
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 20
+	Rotation-Vector -1 0 0
+
+   FrameIndex HECF B 0 1
+}
+
+
+Model Hectshot
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re4.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex HECF C 0 0
+}
+Model Hectshot
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re5.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex HECF D 0 3
+}
+Model Hectshot
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re6.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex HECF E 0 6
+}
+
+Model AbaddonBall
+{ 
+	Path "Models/Projectiles/Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "AbaddonShot1.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "AbaddonSphere1.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "AbaddonShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL3 A 0 0	FrameIndex BAL3 A 1 0	FrameIndex BAL3 A 2 0
+}
+
+Model AbaddonBall
+{ 
+	Path "Models/Projectiles/Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "AbaddonShot2.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "AbaddonSphere2.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "AbaddonShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL3 B 0 0	FrameIndex BAL3 B 1 0	FrameIndex BAL3 B 2 10
+}
+
+Model AbaddonBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red2_i4.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL3 C 0 0
+}
+Model AbaddonBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red2_i5.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL3 D 0 3
+}
+Model AbaddonBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red2_i6.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL3 E 0 6
+}
+
+Model CacolanternBall
+{ 
+	Path "Models/Projectiles/Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "CacolanternShot1.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "CacolanternSphere1.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "CacolanternShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL8 A 0 0	FrameIndex BAL8 A 1 0	FrameIndex BAL8 A 2 0
+}
+
+Model CacolanternBall
+{ 
+	Path "Models/Projectiles/Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "CacolanternShot2.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "CacolanternSphere2.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "CacolanternShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL8 B 0 0	FrameIndex BAL8 B 1 0	FrameIndex BAL8 B 2 10
+}
+
+Model CacolanternBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_blue_i4.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL8 C 0 0
+}
+Model CacolanternBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_blue_i5.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL8 D 0 3
+}
+Model CacolanternBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_blue_i6.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL8 E 0 6
+}
+
+
+Model Grenade
+{
+   Path "Models/Projectiles/Grenade"
+   Model 0 "Grenade.md3"
+   Skin 0 "Grenade.png"
+   Scale 1.0 1.0 1.0
+
+ZOffset 4
+   PitchFromMomentum
+
+   FrameIndex SGRN A 0 0
+}
+
+
+Model DarkImpBall
+{ 
+	Path "Models/Projectiles/Imp-FireBall"
+	Model 0 "ImpFireball.md2"
+	Skin 0 "DarkImpFireball.png"
+    Scale 0.125 -0.125 0.15
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL4 A 0 0
+	FrameIndex BAL4 B 0 0
+}
+
+Model DarkImpBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_dark_i4.png"
+    Scale 0.125 -0.125 0.15
+
+	FrameIndex BAL4 C 0 0
+}
+Model DarkImpBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_dark_i5.png"
+    Scale 0.25 0.25 0.25
+
+	FrameIndex BAL4 D 0 3
+}
+Model DarkImpBall
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_dark_i6.png"
+    Scale 0.25 0.25 0.25
+
+	FrameIndex BAL4 E 0 6
+}
+
+Model belphegorball
+{ 
+	Path "Models/Projectiles/BaronBall"
+	Model 0 "Baron_M.dmd"
+	Skin 0 "Z0.png"
+	Scale 0.5 0.5 0.6
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 25
+	Rotation-Vector -1 0 0
+
+	FrameIndex BAL7 A 0 0
+}
+
+Model belphegorball
+{ 
+	Path "Models/Projectiles/BaronBall"
+	Model 0 "Baron_M.dmd"
+	Skin 0 "Z4.png"
+	Scale 0.5 0.5 0.6
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 25
+	Rotation-Vector -1 0 0
+
+	FrameIndex BAL7 B 0 1
+}
+
+Model belphegorball
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re4.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL7 C 0 0
+}
+Model belphegorball
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re5.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL7 D 0 3
+}
+Model belphegorball
+{ 
+	Path "Models/Projectiles/Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "re6.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL7 E 0 6
+}
+
+
+Model PlasmaBall
+{ 
+	Path "Models\Projectiles\PlasmaBalls"
+	Model 0 "PlasmaBall.md3"
+	Skin 0 "PlasmaShot.png"
+
+	Scale 2.0 2.0 2.4
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector 1 1 0
+	PitchFromMomentum
+
+	FrameIndex PLSS A 0 0	FrameIndex PLSS A 1 0
+	FrameIndex PLSS B 0 0	FrameIndex PLSS B 1 0
+}
+
+Model arachnotronplasma
+{ 
+	Path "Models\Projectiles\PlasmaBalls"
+	Model 0 "PlasmaBall.md3"
+	Skin 0 "PlasmaShotAR.png"
+
+	Scale 1.3333 1.3333 1.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector 1 1 0
+	PitchFromMomentum
+
+	FrameIndex APLS A 0 0	FrameIndex APLS A 1 0
+	FrameIndex APLS B 0 0	FrameIndex APLS B 1 0
+}
+
+model PlasmaBall
+{
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "plasma_boom.md3"
+	skin 0 "plasma_Blue.png"
+	Scale 0.75 0.75 0.75
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex PLSE A 0 1
+	frameindex PLSE B 0 2
+	frameindex PLSE C 0 3
+	frameindex PLSE D 0 4
+	frameindex PLSE E 0 5
+}
+
+model arachnotronplasma
+{
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "plasma_boom.md3"
+	skin 0 "plasma_AR.png"
+	Scale 0.5 0.5 0.5
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+	frameindex APBX A 0 1
+	frameindex APBX B 0 2
+	frameindex APBX C 0 3
+	frameindex APBX D 0 4
+	frameindex APBX E 0 5
+}
+
+
+Model BFGBall
+{ 
+	Path "Models\Projectiles\PlasmaBalls"
+	Model 0 "BFGShot.md2"
+	Skin 0 "Bfgm0.png"
+
+	Model 1 "BFGShotSphere.md2"
+	Skin 1 "BFGSphere.png"
+
+	Model 2 "BFGShot_Glow.md2"
+	Skin 2 "BFGShot_Glow.png"
+
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BFS1 A 0 0	FrameIndex BFS1 A 1 0	FrameIndex BFS1 A 2 0
+}
+
+Model BFGBall
+{ 
+	Path "Models\Projectiles\PlasmaBalls"
+	Model 0 "BFGShot.md2"
+	Skin 0 "Bfgm1.png"
+
+	Model 1 "BFGShotSphere.md2"
+	Skin 1 "BFGSphere2.png"
+
+	Model 2 "BFGShot_Glow.md2"
+	Skin 2 "BFGShot_Glow.png"
+
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BFS1 B 0 0	FrameIndex BFS1 B 1 0	FrameIndex BFS1 B 2 10
+}
+Model BFGBall
+{
+	path "Models\Projectiles\PlasmaBalls"
+
+	model 0 "plasma_boom.md3"
+	model 1 "Bolt.md3"
+	skin 0 "plasma_Green.png"
+	skin 1 "Bolt_Green.png"
+	Scale 1.25 1.25 1.25
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BFE1 A 0 0	frameindex BFE1 A 1 0
+	frameindex BFE1 B 0 1	frameindex BFE1 B 1 1
+	frameindex BFE1 C 0 2	frameindex BFE1 C 1 2
+	frameindex BFE1 D 0 3	frameindex BFE1 D 1 3
+	frameindex BFE1 E 0 4	frameindex BFE1 E 1 999
+	frameindex BFE1 F 0 5	frameindex BFE1 F 1 999
+}
+
+Model BFGExtra
+{
+	path "Models\Projectiles\PlasmaBalls"
+	
+	model 0 "plasma_boom.md3"
+	skin 0 "plasma_Green.png"
+	Scale 0.5 0.5 0.5
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BFE2 A 0 0
+	frameindex BFE2 B 0 1
+	frameindex BFE2 C 0 2
+	frameindex BFE2 D 0 3
+	frameindex BFE2 E 0 4
+	frameindex BFE2 F 0 5
+
+}
+
+Model CacodemonBall
+{ 
+	Path "Models\Projectiles\Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "CacoShot1.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "CacoSphere1.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "CacoShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL2 A 0 0	FrameIndex BAL2 A 1 0	FrameIndex BAL2 A 2 0
+}
+
+Model CacodemonBall
+{ 
+	Path "Models\Projectiles\Caco-FireBall"
+	Model 0 "CacoShot.md2"
+	Skin 0 "CacoShot2.tga"
+
+	Model 1 "CacoShotSphere.md2"
+	Skin 1 "CacoSphere2.tga"
+
+	Model 2 "CacoShot_Glow.md2"
+	Skin 2 "CacoShot_Glow.tga"
+	Scale 0.5 -0.5 0.6
+
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	PitchFromMomentum
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL2 B 0 0	FrameIndex BAL2 B 1 0	FrameIndex BAL2 B 2 10
+}
+
+Model CacodemonBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "ce4.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL2 C 0 0
+}
+Model CacodemonBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "ce5.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL2 D 0 3
+}
+Model CacodemonBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "ce6.png"
+	Scale 0.5 0.5 0.5
+
+	FrameIndex BAL2 E 0 6
+}
+
+Model DoomImpBall
+{ 
+	Path "Models\Projectiles\Imp-FireBall"
+	Model 0 "ImpFireball.md2"
+	Skin 0 "ImpFireball.png"
+	Scale 0.125 -0.125 0.15
+
+	PitchFromMomentum
+	Rotating
+	Rotation-Speed 10
+	Rotation-Vector -1 0 0
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex BAL1 A 0 0
+	FrameIndex BAL1 B 0 0
+}
+
+Model DoomImpBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red_i4.png"
+	Scale 0.25 0.25 0.25
+
+	FrameIndex BAL1 C 0 0
+}
+Model DoomImpBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red_i5.png"
+	Scale 0.25 0.25 0.25
+
+	FrameIndex BAL1 D 0 3
+}
+Model DoomImpBall
+{ 
+	Path "Models\Projectiles\Explosions"
+	Model 0 "Explosion.md2"
+	Skin 0 "Expl_red_i6.png"
+	Scale 0.25 0.25 0.25
+
+	FrameIndex BAL1 E 0 6
+}
+
+Model Sorcerer2FX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	model 1 "Bolt.md3"
+	skin 0 "plasma_Blue.png"
+	skin 1 "Bolt_Blue.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX16 G 0 0   FrameIndex FX16 G 1 0
+   FrameIndex FX16 H 0 1   FrameIndex FX16 H 1 1
+   FrameIndex FX16 I 0 2   FrameIndex FX16 I 1 2
+   FrameIndex FX16 J 0 3   FrameIndex FX16 J 1 3
+   FrameIndex FX16 K 0 4   FrameIndex FX16 K 1 1
+   FrameIndex FX16 L 0 5   FrameIndex FX16 L 1 999
+
+}
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm0.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2"BFGShotSphere.md2"
+	skin 2"BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 A 0 0
+}
+
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm1.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2 "BFGShotSphere.md2"
+	skin 2 "BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 B 0 0
+}
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	skin 0 "plasma_Purple.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX11 C 0 1
+   FrameIndex FX11 D 0 2
+   FrameIndex FX11 E 0 3
+   FrameIndex FX11 F 0 4
+   FrameIndex FX11 G 0 5
+}
+
+Model GoldWandFX1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model GoldWandFX2
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff1.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 A 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff2.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 B 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff3.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 C 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff4.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 D 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff5.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 E 0 0
+}
+
+Model GoldWandPuff2
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm0.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2"BFGShotSphere.md2"
+	skin 2"BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 A 0 0
+}
+
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm1.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2 "BFGShotSphere.md2"
+	skin 2 "BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 B 0 0
+}
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	skin 0 "plasma_Purple.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX11 C 0 1
+   FrameIndex FX11 D 0 2
+   FrameIndex FX11 E 0 3
+   FrameIndex FX11 F 0 4
+   FrameIndex FX11 G 0 5
+}
