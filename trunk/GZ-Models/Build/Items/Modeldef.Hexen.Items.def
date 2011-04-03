@@ -1,0 +1,217 @@
+Model PuzzBook1
+{
+	Path "Models\Items\Book"
+	
+	Model 0 "Cover.md3"
+	Skin 0 "cover.png"
+	Model 1 "Pages.md3"
+	Skin 1 "pages.png"
+	Model 2 "Binding.md3"
+	Skin 2 "binding.png"
+
+	Scale 1.5 1.5 1.5
+
+	ZOffset 0
+
+	FrameIndex ABK1 A 0 0
+}
+
+Model PuzzBook2
+{
+	Path "Models\Items\Book"
+	
+	Model 0 "Cover.md3"
+	Skin 0 "cover2.png"
+	Model 1 "Pages.md3"
+	Skin 1 "pages.png"
+	Model 2 "Binding.md3"
+	Skin 2 "binding.png"
+
+	Scale 1.5 1.5 1.5
+
+	ZOffset 0
+
+	FrameIndex ABK2 A 0 0
+}
+
+Model PuzzGear1
+{
+	Path "Models\Items\Gears"
+	
+	Model 0 "Gear.md2"
+	Skin 0 "Gear_1.png"
+
+	Scale 10.0 10.0 10.0
+
+	Rotating
+
+	ZOffset 30
+
+	FrameIndex AGER A 0 0
+	FrameIndex AGER B 0 0
+	FrameIndex AGER C 0 0
+	FrameIndex AGER D 0 0
+	FrameIndex AGER E 0 0
+	FrameIndex AGER F 0 0
+	FrameIndex AGER G 0 0
+	FrameIndex AGER H 0 0
+}
+
+Model PuzzGear2
+{
+	Path "Models\Items\Gears"
+	
+	Model 0 "Gear.md2"
+	Skin 0 "Gear_2.png"
+
+	Scale 10.0 10.0 10.0
+
+	Rotating
+
+	ZOffset 30
+
+	FrameIndex AGR2 A 0 0
+	FrameIndex AGR2 B 0 0
+	FrameIndex AGR2 C 0 0
+	FrameIndex AGR2 D 0 0
+	FrameIndex AGR2 E 0 0
+	FrameIndex AGR2 F 0 0
+	FrameIndex AGR2 G 0 0
+	FrameIndex AGR2 H 0 0
+}
+
+Model PuzzGear3
+{
+	Path "Models\Items\Gears"
+	
+	Model 0 "Gear.md2"
+	Skin 0 "Gear_3.png"
+
+	Scale 10.0 10.0 10.0
+
+	Rotating
+
+	ZOffset 30
+
+	FrameIndex AGR3 A 0 0
+	FrameIndex AGR3 B 0 0
+	FrameIndex AGR3 C 0 0
+	FrameIndex AGR3 D 0 0
+	FrameIndex AGR3 E 0 0
+	FrameIndex AGR3 F 0 0
+	FrameIndex AGR3 G 0 0
+	FrameIndex AGR3 H 0 0
+}
+
+Model PuzzGear4
+{
+	Path "Models\Items\Gears"
+	
+	Model 0 "Gear.md2"
+	Skin 0 "Gear_4.png"
+
+	Scale 10.0 10.0 10.0
+
+	Rotating
+
+	ZOffset 30
+
+	FrameIndex AGR4 A 0 0
+	FrameIndex AGR4 B 0 0
+	FrameIndex AGR4 C 0 0
+	FrameIndex AGR4 D 0 0
+	FrameIndex AGR4 E 0 0
+	FrameIndex AGR4 F 0 0
+	FrameIndex AGR4 G 0 0
+	FrameIndex AGR4 H 0 0
+}
+
+
+
+Model PuzzGemBig 
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Big.md2"
+	Skin 0 "Gem_Big.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex ABGM A 0 0
+}
+
+Model PuzzGemRed 
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Planet.md2"
+	Skin 0 "Gem_Planet_Red.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex AGMR A 0 0
+}
+
+Model PuzzGemGreen1 
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Planet.md2"
+	Skin 0 "Gem_Planet_Green.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex AGMG A 0 0
+}
+
+
+Model PuzzGemGreen2
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Planet.md2"
+	Skin 0 "Gem_Planet_Green.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex AGG2 A 0 0
+}
+
+
+Model PuzzGemBlue1 
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Planet.md2"
+	Skin 0 "Gem_Planet_Blue.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex AGMB A 0 0
+}
+
+
+Model PuzzGemBlue2
+{
+	Path "Models\Items\Gems"
+	
+	Model 0 "Gem_Planet.md2"
+	Skin 0 "Gem_Planet_Blue.png"
+
+	Scale 1.0 1.0 1.0
+
+	Rotating
+
+	FrameIndex AGB2 A 0 0
+}
+

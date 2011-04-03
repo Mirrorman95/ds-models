@@ -1,0 +1,1012 @@
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "Manc.png"
+   MODEL 0 "MANC.md2"
+   Scale 1.25 1.25 1.25
+
+
+   FrameIndex FATT A 0 0
+   FrameIndex FATT B 0 1
+   FrameIndex FATT C 0 2
+   FrameIndex FATT D 0 3
+   FrameIndex FATT E 0 4
+   FrameIndex FATT F 0 5
+   FrameIndex FATT G 0 6
+
+   FrameIndex FATT I 0 8
+   FrameIndex FATT J 0 9
+}
+
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "mancDIE2.png"
+   SKIN 1 "Manc.png"
+   MODEL 0 "Mancdeath_4.md2"
+   MODEL 1 "Mancdeath_4_guns.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+
+   FrameIndex FATT P 0 1
+   FrameIndex FATT Q 0 2
+   FrameIndex FATT R 0 4
+   FrameIndex FATT S 0 5
+   FrameIndex FATT T 0 6
+
+}
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "mancDIE0.png"
+   SKIN 1 "Manc.png"
+   MODEL 0 "Mancdeath_2.md2"
+   MODEL 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+
+NOINTERPOLATION
+   FrameIndex FATT N 0 6    FrameIndex FATT N 1 6
+   FrameIndex FATT O 0 7    FrameIndex FATT O 1 7
+
+}
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "MancDIE0.png"
+   SKIN 1 "Manc.png"
+   SKIN 2 "MancE1.PNG"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex FATT K 0 0    FrameIndex FATT K 1 0	FrameIndex FATT K 2 0
+
+}
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "MancDIE0.png"
+   SKIN 1 "Manc.png"
+   SKIN 2 "MancE2.png"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex FATT L 0 2    FrameIndex FATT L 1 2	FrameIndex FATT L 2 2
+
+}
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "MancDIE0.png"
+   SKIN 1 "Manc.png"
+   SKIN 2 "MancE3.PNG"
+   MODEL 0 "Mancdeath_1.md2"
+   MODEL 1 "Mancdeath_1_guns.md2"
+   MODEL 2 "Mancdeath_1_explo.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex FATT M 0 4    FrameIndex FATT M 1 4	FrameIndex FATT M 2 4
+
+}
+
+Model StealthFatso
+{ 
+   Path "Models\Monsters\Fatso"
+   SKIN 0 "MancFire.png"
+   MODEL 0 "Manc.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex FATT H 0 7
+
+}
+
+Model StealthArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Model 0 "Archpalmsred.md2"
+   Skin 0 "Archred0.tga"
+   Model 1 "Archvile.md2"
+   Skin 1 "Archvile.png"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex VILE [ 0 10   FrameIndex VILE [ 1 10
+   FrameIndex VILE \ 0 11   FrameIndex VILE \ 1 11
+   FrameIndex VILE ] 0 12   FrameIndex VILE ] 1 12
+}
+
+Model StealthArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archvile.png"
+   Model 0 "Archvile.md2"
+   Scale 1.25 1.25 1.25
+
+
+   FrameIndex VILE A 0 1
+   FrameIndex VILE B 0 2
+   FrameIndex VILE C 0 3
+   FrameIndex VILE D 0 4
+   FrameIndex VILE E 0 5
+   FrameIndex VILE F 0 6
+
+   FrameIndex VILE Q 0 8
+}
+
+Model StealthArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archdeath.png"
+   Model 0 "ArchDie.md2"
+   Scale 1.25 1.25 1.25
+
+
+   FrameIndex VILE R 0 0
+   FrameIndex VILE S 0 1
+   FrameIndex VILE T 0 2
+   FrameIndex VILE U 0 3
+   FrameIndex VILE V 0 4
+   FrameIndex VILE W 0 5
+   FrameIndex VILE X 0 6
+   FrameIndex VILE Y 0 7
+   FrameIndex VILE Z 0 7
+
+}
+
+Model StealthArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire0.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex VILE G 0 0   FrameIndex VILE G 1 0
+   FrameIndex VILE H 0 1   FrameIndex VILE H 1 1
+   FrameIndex VILE I 0 2   FrameIndex VILE I 1 2
+   FrameIndex VILE J 0 3   FrameIndex VILE J 1 3
+   FrameIndex VILE K 0 4   FrameIndex VILE K 1 4
+   FrameIndex VILE L 0 5   FrameIndex VILE L 1 5
+   FrameIndex VILE M 0 6   FrameIndex VILE M 1 6
+   FrameIndex VILE N 0 7   FrameIndex VILE N 1 7
+   FrameIndex VILE O 0 8   FrameIndex VILE O 1 9
+
+}
+
+Model StealthArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire0.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.25
+NOINTERPOLATION
+   FrameIndex VILE P 0 9   FrameIndex VILE P 1 10
+
+}
+
+Model StealthRevenant
+{ 
+   Path "Models\Monsters\Revenant"
+   SKIN 0 "revenant_skin.png"
+   SKIN 1 "revenant_head.png"
+   MODEL 0 "Revenant_Base.md2"
+   MODEL 1 "Revenant_head.md2"
+   Scale 0.15 0.15 0.15
+
+
+   FrameIndex SKEL A 0 3	FrameIndex SKEL A 1 3
+   FrameIndex SKEL B 0 4	FrameIndex SKEL B 1 4
+   FrameIndex SKEL C 0 5	FrameIndex SKEL C 1 5
+   FrameIndex SKEL D 0 6	FrameIndex SKEL D 1 6
+   FrameIndex SKEL E 0 7	FrameIndex SKEL E 1 7
+   FrameIndex SKEL F 0 8	FrameIndex SKEL F 1 8
+   FrameIndex SKEL G 0 17	FrameIndex SKEL G 1 17
+   FrameIndex SKEL H 0 18	FrameIndex SKEL H 1 18
+   FrameIndex SKEL I 0 19	FrameIndex SKEL I 1 19
+   FrameIndex SKEL J 0 21	FrameIndex SKEL J 1 21
+   FrameIndex SKEL K 0 22	FrameIndex SKEL K 1 22
+   FrameIndex SKEL L 0 9	FrameIndex SKEL L 1 9
+
+}
+Model StealthRevenant
+{ 
+   Path "Models\Monsters\Revenant"
+   SKIN 0 "revenant_Death.png"
+   SKIN 1 "revenant_head.png"
+   MODEL 0 "Revenant_Base.md2"
+   MODEL 1 "Revenant_head.md2"
+   Scale 0.15 0.15 0.15
+
+   FrameIndex SKEL M 0 10	FrameIndex SKEL M 1 10
+   FrameIndex SKEL N 0 11	FrameIndex SKEL N 1 11
+   FrameIndex SKEL O 0 12	FrameIndex SKEL O 1 12
+   FrameIndex SKEL P 0 13	FrameIndex SKEL P 1 13
+   FrameIndex SKEL Q 0 15	FrameIndex SKEL Q 1 15
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_1.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS A 0 2	FrameIndex BOSS A 1 2	FrameIndex BOSS A 2 2
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_1.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS B 0 4	FrameIndex BOSS B 1 4	FrameIndex BOSS B 2 4
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_2.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS C 0 6	FrameIndex BOSS C 1 6	FrameIndex BOSS C 2 6
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_3.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS D 0 8	FrameIndex BOSS D 1 8	FrameIndex BOSS D 2 8
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_4.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS E 0 13	FrameIndex BOSS E 1 13	FrameIndex BOSS E 2 13
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_5.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS F 0 14	FrameIndex BOSS F 1 14	FrameIndex BOSS F 2 14
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_6.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS G 0 15	FrameIndex BOSS G 1 15	FrameIndex BOSS G 2 15
+}
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_7.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOSS H 0 18	FrameIndex BOSS H 1 18	FrameIndex BOSS H 2 18
+}
+
+Model StealthBaron
+{ 
+   Path "Models\Monsters\BaronOfHell"
+   SKIN 1 "Death.png"
+   MODEL 1 "BaronOfHell_Death.md2"
+   Scale 0.5 0.5 0.5
+
+
+
+FrameIndex BOSS I 1 0	
+FrameIndex BOSS J 1 1	
+FrameIndex BOSS K 1 2	
+FrameIndex BOSS L 1 3	
+FrameIndex BOSS M 1 4	
+FrameIndex BOSS N 1 5	
+FrameIndex BOSS O 1 6	
+}
+
+
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_1.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 A 0 2	FrameIndex BOS2 A 1 2	FrameIndex BOS2 A 2 2
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_1.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 B 0 4	FrameIndex BOS2 B 1 4	FrameIndex BOS2 B 2 4
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_2.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 C 0 6	FrameIndex BOS2 C 1 6	FrameIndex BOS2 C 2 6
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_3.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 D 0 8	FrameIndex BOS2 D 1 8	FrameIndex BOS2 D 2 8
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_4.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 E 0 13	FrameIndex BOS2 E 1 13	FrameIndex BOS2 E 2 13
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_5.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 F 0 14	FrameIndex BOS2 F 1 14	FrameIndex BOS2 F 2 14
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_6.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 G 0 15	FrameIndex BOS2 G 1 15	FrameIndex BOS2 G 2 15
+}
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 0 "Baron_SKIN.png"
+   SKIN 1 "Baron_h0.png"
+   SKIN 2 "Flame_Green_7.png"
+   MODEL 0 "bruiser_body.md2"
+   MODEL 1 "bruiser_head.md2"
+   MODEL 2 "Bruiser_Flame.MD2"
+   Scale 0.5 0.5 0.5
+
+
+   FrameIndex BOS2 H 0 18	FrameIndex BOS2 H 1 18	FrameIndex BOS2 H 2 18
+}
+
+Model StealthHellKnight
+{ 
+   Path "Models\Monsters\HellKnight"
+   SKIN 1 "Death.png"
+   MODEL 1 "BaronOfHell_Death.md2"
+   Scale 0.5 0.5 0.5
+
+
+
+FrameIndex BOS2 I 1 0	
+FrameIndex BOS2 J 1 1	
+FrameIndex BOS2 K 1 2	
+FrameIndex BOS2 L 1 3	
+FrameIndex BOS2 M 1 4	
+FrameIndex BOS2 N 1 5	
+FrameIndex BOS2 O 1 6	
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+
+   Scale 10.0 10.0 10.0
+
+
+   FrameIndex HEAD A 0 0   FrameIndex HEAD A 1 0   FrameIndex HEAD A 2 0
+
+   FrameIndex HEAD E 0 2   FrameIndex HEAD E 1 2   FrameIndex HEAD E 2 2
+   FrameIndex HEAD F 0 3   FrameIndex HEAD F 1 3   FrameIndex HEAD F 2 3
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_2.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD B 0 61   FrameIndex HEAD B 1 61   FrameIndex HEAD B 2 61
+   FrameIndex HEAD C 0 64   FrameIndex HEAD C 1 64   FrameIndex HEAD C 2 64
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_attack.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_3.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_2.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD D 0 67   FrameIndex HEAD D 1 67   FrameIndex HEAD D 2 67
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_pain1.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD G 0 16   FrameIndex HEAD G 1 16   FrameIndex HEAD G 2 16
+}
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_pain2.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD H 0 17   FrameIndex HEAD H 1 17   FrameIndex HEAD H 2 17
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD I 0 18   FrameIndex HEAD I 1 18   FrameIndex HEAD I 2 18
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "cacobody_pain3.png"
+   Model 0 "Cacodemon.md2"
+
+   Skin 1 "cacoeye_1.png"
+   Model 1 "Cacodemon-Eye.md2"
+
+   Skin 2 "cacomouth_1.png"
+   Model 2 "Cacodemon-Mouth.md2"
+
+   Scale 10.0 10.0 10.0
+
+   NOINTERPOLATION
+
+   FrameIndex HEAD J 0 19   FrameIndex HEAD J 1 19   FrameIndex HEAD J 2 19
+}
+
+Model StealthCacodemon
+{ 
+   Path "Models\Monsters\Cacodemon"
+   Skin 0 "caco_death.png"
+   Model 0 "Cacodemon-Corpse.md2"
+
+   Scale 10.0 10.0 10.0
+
+   FrameIndex HEAD K 0 0
+   FrameIndex HEAD L 0 1
+}
+
+Model Spectre
+{ 
+   Path "Models\Monsters\Demon"
+   SKIN 1 "Spectre-Die.png"
+   SKIN 0 "Spectre.png"
+   MODEL 0 "base.md2"
+   MODEL 1 "Death.md2"
+   Scale 1.0 1.0 1.0
+
+
+   FrameIndex SARG A 0 2	FrameIndex SARG A 1 999
+   FrameIndex SARG B 0 4	FrameIndex SARG B 1 999
+   FrameIndex SARG C 0 7	FrameIndex SARG C 1 999
+   FrameIndex SARG D 0 9	FrameIndex SARG D 1 999
+   FrameIndex SARG E 0 13	FrameIndex SARG E 1 999
+   FrameIndex SARG F 0 14	FrameIndex SARG F 1 999
+   FrameIndex SARG G 0 15	FrameIndex SARG G 1 999
+   FrameIndex SARG H 0 18	FrameIndex SARG H 1 999
+   FrameIndex SARG I 0 999	FrameIndex SARG I 1 0
+   FrameIndex SARG J 0 999	FrameIndex SARG J 1 1
+   FrameIndex SARG K 0 999	FrameIndex SARG K 1 2
+   FrameIndex SARG L 0 999	FrameIndex SARG L 1 3
+   FrameIndex SARG M 0 999	FrameIndex SARG M 1 4
+   FrameIndex SARG N 0 999	FrameIndex SARG N 1 5
+}
+
+Model StealthDoomImp
+{ 
+   Path "Models\Monsters\DoomImp"
+   SKIN 0 "IMP_SKin.png"
+   Skin 1 "IMP_SKin.png"
+   Model 1 "Imp-Hand.md2"
+   MODEL 0 "Imp.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex TROO A 0 1	   FrameIndex TROO A 1 1
+   FrameIndex TROO B 0 3	   FrameIndex TROO B 1 3
+   FrameIndex TROO C 0 5	   FrameIndex TROO C 1 5
+   FrameIndex TROO D 0 7	   FrameIndex TROO D 1 7
+   FrameIndex TROO H 0 23	   FrameIndex TROO H 1 23
+}
+Model StealthDoomImp
+{ 
+   Path "Models\Monsters\DoomImp"
+   SKIN 0 "IMP_SKin.png"
+   Skin 1 "IMP_SKinCharge.png"
+   Model 1 "Imp-Hand.md2"
+   MODEL 0 "Imp.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex TROO E 0 10	   FrameIndex TROO E 1 10
+   FrameIndex TROO F 0 12	   FrameIndex TROO F 1 12
+   FrameIndex TROO G 0 13	   FrameIndex TROO G 1 13
+}
+Model StealthDoomImp
+{ 
+   Path "Models\Monsters\DoomImp"
+   SKIN 1 "IMP_Pain2.png"
+   SKIN 2 "gibs.png"
+   MODEL 1 "ImpDeath.md2"
+   Model 2 "gibs.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex TROO I 1 1	FrameIndex TROO I 2 999
+   FrameIndex TROO J 1 2	FrameIndex TROO J 2 999
+   FrameIndex TROO K 1 3	FrameIndex TROO K 2 999
+   FrameIndex TROO L 1 4	FrameIndex TROO L 2 999
+   FrameIndex TROO M 1 5	FrameIndex TROO M 2 999
+   FrameIndex TROO N 1 999	FrameIndex TROO N 2 0
+   FrameIndex TROO O 1 999	FrameIndex TROO O 2 2
+   FrameIndex TROO P 1 999	FrameIndex TROO P 2 4
+   FrameIndex TROO Q 1 999	FrameIndex TROO Q 2 6
+   FrameIndex TROO R 1 999	FrameIndex TROO R 2 8
+   FrameIndex TROO S 1 999	FrameIndex TROO S 2 8
+   FrameIndex TROO T 1 999	FrameIndex TROO T 2 8
+   FrameIndex TROO U 1 999	FrameIndex TROO U 2 8
+}
+
+Model StealthArachnotron
+{ 
+   Path "Models\Monsters\Arachnotron"
+   SKIN 0 "Arachnotron.png"
+   SKIN 1 "Arachnotron.png"
+   SKIN 2 "Platform_Arachnotron.png"
+   MODEL 0 "Spider_brain_left.dmd"
+   MODEL 1 "Spider_brain_Right.dmd"
+   MODEL 2 "Spider_platform.dmd"
+   Scale 1.5 1.5 1.5 
+
+
+   FrameIndex BSPI A 0 0   FrameIndex BSPI A 1 0   FrameIndex BSPI A 2 0
+   FrameIndex BSPI B 0 1   FrameIndex BSPI B 1 1   FrameIndex BSPI B 2 1
+   FrameIndex BSPI C 0 2   FrameIndex BSPI C 1 2   FrameIndex BSPI C 2 2
+   FrameIndex BSPI D 0 3   FrameIndex BSPI D 1 3   FrameIndex BSPI D 2 3
+   FrameIndex BSPI E 0 4   FrameIndex BSPI E 1 4   FrameIndex BSPI E 2 4
+   FrameIndex BSPI F 0 5   FrameIndex BSPI F 1 5   FrameIndex BSPI F 2 5
+
+   FrameIndex BSPI G 0 31   FrameIndex BSPI G 1 31   FrameIndex BSPI G 2 31
+
+   FrameIndex BSPI I 0 30   FrameIndex BSPI I 1 30   FrameIndex BSPI I 2 30
+}
+
+Model StealthArachnotron
+{ 
+   Path "Models\Monsters\Arachnotron"
+   SKIN 0 "Arachnotron.png"
+   SKIN 1 "Arachnotron.png"
+   SKIN 2 "Platform_Arachnotron_Shot.png"
+   MODEL 0 "Spider_brain_left.dmd"
+   MODEL 1 "Spider_brain_Right.dmd"
+   MODEL 2 "Spider_platform.dmd"
+   Scale 1.5 1.5 1.5 
+
+
+   FrameIndex BSPI H 0 31   FrameIndex BSPI H 1 31   FrameIndex BSPI H 2 31
+}
+
+Model StealthArachnotron
+{ 
+   Path "Models\Monsters\Arachnotron"
+   SKIN 0 "Arachnotron_death.png"
+   MODEL 0 "arachnotron_death.dmd"
+   Scale 1.5 1.5 1.5 
+
+
+   FrameIndex BSPI J 0 0
+   FrameIndex BSPI K 0 2
+   FrameIndex BSPI L 0 4
+   FrameIndex BSPI M 0 6
+   FrameIndex BSPI N 0 10
+   FrameIndex BSPI O 0 12
+   FrameIndex BSPI P 0 14
+}
+
+
+Model StealthShotgunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "sargeant.png"
+   SKIN 1 "h_spos0.png"
+   SKIN 2 "cv_shotgun.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   MODEL 2 "weapon_shotty.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex SPOS A 0 0	   FrameIndex SPOS A 1 0	   FrameIndex SPOS A 2 0
+   FrameIndex SPOS B 0 2	   FrameIndex SPOS B 1 2	   FrameIndex SPOS B 2 2
+   FrameIndex SPOS C 0 4	   FrameIndex SPOS C 1 4	   FrameIndex SPOS C 2 4
+   FrameIndex SPOS D 0 6	   FrameIndex SPOS D 1 6	   FrameIndex SPOS D 2 6
+   FrameIndex SPOS E 0 9	   FrameIndex SPOS E 1 9	   FrameIndex SPOS E 2 9
+
+   FrameIndex SPOS G 0 54	   FrameIndex SPOS G 1 22	   FrameIndex SPOS G 2 11
+   FrameIndex SPOS H 0 54	   FrameIndex SPOS H 1 22	   FrameIndex SPOS H 2 11
+
+}
+
+Model StealthShotgunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "sargeant-fire.png"
+   SKIN 1 "h_spos0.png"
+   SKIN 2 "cv_shotgun.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   MODEL 2 "weapon_shotty.md2"
+   Scale 0.9 0.9 0.9
+
+   FrameIndex SPOS F 0 10	   FrameIndex SPOS F 1 10	   FrameIndex SPOS F 2 10
+
+}
+
+Model StealthShotgunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "sargeant.png"
+   SKIN 1 "h_spos0.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex SPOS H 0 54	FrameIndex SPOS H 1 22
+   FrameIndex SPOS I 0 58	FrameIndex SPOS I 1 26
+   FrameIndex SPOS J 0 60	FrameIndex SPOS J 1 28
+   FrameIndex SPOS K 0 62	FrameIndex SPOS K 1 30
+   FrameIndex SPOS L 0 64	FrameIndex SPOS L 1 32
+}
+
+
+Model StealthShotgunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   Skin 2 "GIBS.png"
+   Model 2 "GIBS.md2"
+   Scale 1.1 1.1 1.1
+
+   FrameIndex SPOS M 2 0
+   FrameIndex SPOS N 2 2
+   FrameIndex SPOS O 2 4
+   FrameIndex SPOS P 2 6
+   FrameIndex SPOS Q 2 8
+   FrameIndex SPOS R 2 8
+   FrameIndex SPOS S 2 8
+   FrameIndex SPOS T 2 8
+   FrameIndex SPOS U 2 8
+}
+
+
+Model StealthZombieMan
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "possesed.png"
+   SKIN 1 "h_poss0.png"
+   SKIN 2 "cv_rifle.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_fodder.md2"
+   MODEL 2 "weapon_rifle.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex POSS A 0 0	FrameIndex POSS A 1 0	FrameIndex POSS A 2 0
+   FrameIndex POSS B 0 2	FrameIndex POSS B 1 2	FrameIndex POSS B 2 2
+   FrameIndex POSS C 0 4	FrameIndex POSS C 1 4	FrameIndex POSS C 2 4
+   FrameIndex POSS D 0 6	FrameIndex POSS D 1 6	FrameIndex POSS D 2 6
+   FrameIndex POSS E 0 9	FrameIndex POSS E 1 9	FrameIndex POSS E 2 9
+   FrameIndex POSS G 0 54	FrameIndex POSS G 1 22	FrameIndex POSS G 2 11
+   FrameIndex POSS H 0 54	FrameIndex POSS H 1 22	FrameIndex POSS H 2 11
+
+}
+
+Model StealthZombieMan
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "possesed-Fire.png"
+   SKIN 1 "h_poss0.png"
+   SKIN 2 "cv_rifle.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_fodder.md2"
+   MODEL 2 "weapon_rifle.md2"
+   Scale 0.9 0.9 0.9
+
+   FrameIndex POSS F 0 10	   FrameIndex POSS F 1 10	   FrameIndex POSS F 2 10
+
+}
+
+Model StealthZombieMan
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "possesed.png"
+   SKIN 1 "h_poss0.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_fodder.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex POSS H 0 54	FrameIndex POSS H 1 22
+   FrameIndex POSS I 0 58	FrameIndex POSS I 1 26
+   FrameIndex POSS J 0 60	FrameIndex POSS J 1 28
+   FrameIndex POSS K 0 62	FrameIndex POSS K 1 30
+   FrameIndex POSS L 0 64	FrameIndex POSS L 1 32
+}
+
+
+Model StealthZombieMan
+{ 
+   Path "Models\Monsters\Soldiers"
+   Skin 2 "GIBS.png"
+   Model 2 "GIBS.md2"
+   Scale 1.1 1.1 1.1
+
+   FrameIndex POSS M 2 0
+   FrameIndex POSS N 2 2
+   FrameIndex POSS O 2 4
+   FrameIndex POSS P 2 6
+   FrameIndex POSS Q 2 8
+   FrameIndex POSS R 2 8
+   FrameIndex POSS S 2 8
+   FrameIndex POSS T 2 8
+   FrameIndex POSS U 2 8
+}
+
+Model StealthChaingunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "commando.png"
+   SKIN 1 "h_cpos1.png"
+   SKIN 2 "cv_chaingun.png"
+   SKIN 3 "cv_chain.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_chainy.md2"
+   MODEL 2 "weapon_bagsy-Chaingun.md2"
+   MODEL 3 "weapon_chain.md2"
+   Scale 0.9 0.9 0.9
+
+
+   FrameIndex CPOS A 0 11	   FrameIndex CPOS A 1 11	   FrameIndex CPOS A 2 0	FrameIndex CPOS A 3 0
+   FrameIndex CPOS B 0 13	   FrameIndex CPOS B 1 13	   FrameIndex CPOS B 2 2	FrameIndex CPOS B 3 2
+   FrameIndex CPOS C 0 15	   FrameIndex CPOS C 1 15	   FrameIndex CPOS C 2 4	FrameIndex CPOS C 3 4
+   FrameIndex CPOS D 0 17	   FrameIndex CPOS D 1 17	   FrameIndex CPOS D 2 6	FrameIndex CPOS D 3 6
+   FrameIndex CPOS G 0 54	   FrameIndex CPOS G 1 22	   FrameIndex CPOS G 2 17	FrameIndex CPOS G 3 11
+   FrameIndex CPOS H 0 54	   FrameIndex CPOS H 1 22	   FrameIndex CPOS H 2 17	FrameIndex CPOS H 3 11
+
+}
+
+Model StealthChaingunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "commando-fire.png"
+   SKIN 1 "h_cpos1.png"
+   SKIN 2 "cv_chaingun2.png"
+   SKIN 3 "cv_chain.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_chainy.md2"
+   MODEL 2 "weapon_bagsy-Chaingun.md2"
+   MODEL 3 "weapon_chain.md2"
+   Scale 0.9 0.9 0.9
+
+NOINTERPOLATION
+
+   FrameIndex CPOS E 0 20	   FrameIndex CPOS E 1 20	   FrameIndex CPOS E 2 9	FrameIndex CPOS E 3 10
+
+}
+
+Model StealthChaingunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "commando-fire.png"
+   SKIN 1 "h_cpos1.png"
+   SKIN 2 "cv_chaingun2.png"
+   SKIN 3 "cv_chain.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_chainy.md2"
+   MODEL 2 "weapon_bagsy-Chaingun.md2"
+   MODEL 3 "weapon_chain.md2"
+   Scale 0.9 0.9 0.9
+
+NOINTERPOLATION
+
+   FrameIndex CPOS F 0 21	FrameIndex CPOS F 1 21	FrameIndex CPOS F 2 13	FrameIndex CPOS F 3 10
+
+}
+
+Model StealthChaingunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   SKIN 0 "commando.png"
+   SKIN 1 "h_spos0.png"
+   SKIN 2 "cv_chaingun.png"
+   MODEL 0 "doom_body.md2"
+   MODEL 1 "head_sarge.md2"
+   MODEL 2 "weapon_bagsy.md2"
+   Scale 0.9 0.9 0.9
+
+   FrameIndex CPOS H 0 54	FrameIndex CPOS H 1 22	FrameIndex CPOS H 2 54
+   FrameIndex CPOS I 0 58	FrameIndex CPOS I 1 26	FrameIndex CPOS I 2 58
+   FrameIndex CPOS J 0 60	FrameIndex CPOS J 1 28	FrameIndex CPOS J 2 60
+   FrameIndex CPOS K 0 62	FrameIndex CPOS K 1 30	FrameIndex CPOS K 2 62
+   FrameIndex CPOS L 0 64	FrameIndex CPOS L 1 32	FrameIndex CPOS L 2 64
+   FrameIndex CPOS M 0 64	FrameIndex CPOS M 1 32	FrameIndex CPOS M 2 64
+   FrameIndex CPOS N 0 64	FrameIndex CPOS N 1 32	FrameIndex CPOS N 2 64
+}
+
+
+Model StealthChaingunguy
+{ 
+   Path "Models\Monsters\Soldiers"
+   Skin 2 "GIBS.png"
+   Model 2 "GIBS.md2"
+   Scale 1.1 1.1 1.1
+
+
+   FrameIndex CPOS O 2 0
+   FrameIndex CPOS P 2 2
+   FrameIndex CPOS Q 2 4
+   FrameIndex CPOS R 2 6
+   FrameIndex CPOS S 2 8
+   FrameIndex CPOS T 2 8
+   FrameIndex CPOS U 2 8
+}
