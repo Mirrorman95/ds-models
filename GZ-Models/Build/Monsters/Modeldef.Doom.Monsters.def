@@ -274,13 +274,36 @@ Model ArchVile
 { 
    Path "Models\Monsters\ArchVile"
    Model 0 "Archpalmsred.md2"
-   Skin 0 "Archred0.tga"
+   Skin 0 "Archred0.png"
    Model 1 "Archvile.md2"
    Skin 1 "Archvile.png"
    Scale 1.25 1.25 1.5
 	InterpolateDoubleFrames
    FrameIndex VILE [ 0 10   FrameIndex VILE [ 1 10
+}
+
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Model 0 "Archpalmsred.md2"
+   Skin 0 "Archred1.png"
+   Model 1 "Archvile.md2"
+   Skin 1 "Archvile.png"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
    FrameIndex VILE \ 0 11   FrameIndex VILE \ 1 11
+}
+
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Model 0 "Archpalmsred.md2"
+   Skin 0 "Archred2.png"
+   Model 1 "Archvile.md2"
+   Skin 1 "Archvile.png"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+	NOINTERPOLATION
    FrameIndex VILE ] 0 12   FrameIndex VILE ] 1 12
 }
 
@@ -331,16 +354,99 @@ Model ArchVile
    Model 1 "Archfire.md2"
    Scale 1.25 1.25 1.5
 	InterpolateDoubleFrames
+	NOINTERPOLATION
    FrameIndex VILE G 0 0   FrameIndex VILE G 1 0
-   FrameIndex VILE H 0 1   FrameIndex VILE H 1 1
-   FrameIndex VILE I 0 2   FrameIndex VILE I 1 2
-   FrameIndex VILE J 0 3   FrameIndex VILE J 1 3
-   FrameIndex VILE K 0 4   FrameIndex VILE K 1 4
-   FrameIndex VILE L 0 5   FrameIndex VILE L 1 5
-   FrameIndex VILE M 0 6   FrameIndex VILE M 1 6
-   FrameIndex VILE N 0 7   FrameIndex VILE N 1 7
-   FrameIndex VILE O 0 8   FrameIndex VILE O 1 9
+}
 
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire1.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE H 0 1   FrameIndex VILE H 1 1
+}
+
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire2.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE I 0 2   FrameIndex VILE I 1 2
+}
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire3.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE J 0 3   FrameIndex VILE J 1 3
+}
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire4.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE K 0 4   FrameIndex VILE K 1 4
+}
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire5.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE L 0 5   FrameIndex VILE L 1 5
+}
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire6.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE M 0 6   FrameIndex VILE M 1 6
+}
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire7.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE N 0 7   FrameIndex VILE N 1 7
+}
+
+Model ArchVile
+{ 
+   Path "Models\Monsters\ArchVile"
+   Skin 0 "Archattack.png"
+   Model 0 "Archattack.md2"
+   Skin 1 "Archfire1.png"
+   Model 1 "Archfire.md2"
+   Scale 1.25 1.25 1.5
+	InterpolateDoubleFrames
+   FrameIndex VILE O 0 8   FrameIndex VILE O 1 9
 }
 
 Model ArchVile
@@ -351,10 +457,12 @@ Model ArchVile
    Skin 1 "Archfire0.png"
    Model 1 "Archfire.md2"
    Scale 1.25 1.25 1.5
-NOINTERPOLATION
+	InterpolateDoubleFrames
+	NOINTERPOLATION
    FrameIndex VILE P 0 9   FrameIndex VILE P 1 10
-
 }
+
+
 
 Model Revenant
 { 
