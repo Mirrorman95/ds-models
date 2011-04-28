@@ -33,7 +33,7 @@ Echo //---------------------------//
 Echo //   C O M P R E S S I N G   //
 Echo //---------------------------//
 
-7za.exe a -t7z GZ-Models.pk3 *.def Models Hires
+7za.exe a -tzip GZ-Models.pk3 *.def Models Hires
 
 Echo //---------------------------//
 Echo //   C L E A N I N G   U P   //

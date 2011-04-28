@@ -385,11 +385,11 @@ Model Rocket
 	Model 1 "RocketExhaust.md2"
 	Skin 1 "Exhaust_1.png"
 	Scale 0.375 0.375 0.45
-
+	ZOffset 8
 	PitchFromMomentum
-	Rotating
-	Rotation-Speed 5
-	Rotation-Vector -1 0 0
+//	Rotating
+//	Rotation-Speed 5
+//	Rotation-Vector -1 0 0
 
 	FrameIndex MISL A 0 0
 }
