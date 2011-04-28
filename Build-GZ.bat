@@ -3,50 +3,47 @@ Echo //---------------------------//
 Echo //     P E R P A R I N G     //
 Echo //---------------------------//
 
-del /F .\GZ-Models\*.def
-RD /Q /S .\GZ-Models\Models
-RD /Q /S .\GZ-Models\Hires
+RD /Q /S .\Temp\
 
-xcopy /R /Y .\7za.exe .\GZ-Models\
-cd .\GZ-Models\
+mkdir Temp
+xcopy /R /Y .\7Zip\7za.exe .\Temp\
+
 
 Echo //---------------------------//
 Echo // C O P Y I N G   F I L E S //
 Echo //---------------------------//
 
-xcopy /R /Y .\Build\Decorations\*.def *.def
-xcopy /R /Y .\Build\Items\*.def *.def
-xcopy /R /Y .\Build\Monsters\*.def *.def
-xcopy /R /Y .\Build\Player\*.def *.def
-xcopy /R /Y .\Build\Projectiles\*.def *.def
-xcopy /R /Y .\Build\Weapons\*.def *.def
+xcopy /R /Y .\GZ-Models\Build\Decorations\*.def .\Temp\*.def
+xcopy /R /Y .\GZ-Models\Build\Items\*.def .\Temp\*.def
+xcopy /R /Y .\GZ-Models\Build\Monsters\*.def .\Temp\*.def
+xcopy /R /Y .\GZ-Models\Build\Player\*.def .\Temp\*.def
+xcopy /R /Y .\GZ-Models\Build\Projectiles\*.def .\Temp\*.def
+xcopy /R /Y .\GZ-Models\Build\Weapons\*.def .\Temp\*.def
 
-xcopy /S /I /R /Y .\Build\Decorations\Decoration .\Models\Decoration
-xcopy /S /I /R /Y .\Build\Items\Items .\Models\Items
-xcopy /S /I /R /Y .\Build\Monsters\Monsters .\Models\Monsters
-xcopy /S /I /R /Y .\Build\Player\Player .\Models\Player
-xcopy /S /I /R /Y .\Build\Projectiles\Projectiles .\Models\Projectiles
-xcopy /S /I /R /Y .\Build\Weapons\Weapons .\Models\Weapons
-xcopy /S /I /R /Y .\Build\Hires .\Hires
+xcopy /S /I /R /Y .\GZ-Models\Build\Decorations\Decoration .\Temp\Models\Decoration
+xcopy /S /I /R /Y .\GZ-Models\Build\Items\Items .\Temp\Models\Items
+xcopy /S /I /R /Y .\GZ-Models\Build\Monsters\Monsters .\Temp\Models\Monsters
+xcopy /S /I /R /Y .\GZ-Models\Build\Player\Player .\Temp\Models\Player
+xcopy /S /I /R /Y .\GZ-Models\Build\Projectiles\Projectiles .\Temp\Models\Projectiles
+xcopy /S /I /R /Y .\GZ-Models\Build\Weapons\Weapons .\Temp\Models\Weapons
+xcopy /S /I /R /Y .\GZ-Models\Build\Hires .\Temp\Hires
+
 
 Echo //---------------------------//
 Echo //   C O M P R E S S I N G   //
 Echo //---------------------------//
 
+cd .\Temp\
 7za.exe a -tzip GZ-Models.pk3 *.def Models Hires
+cd ..
 
 Echo //---------------------------//
 Echo //   C L E A N I N G   U P   //
 Echo //---------------------------//
 
-cd ..
+move  /Y .\Temp\GZ-Models.pk3 GZ-Models.pk3
 
-del /F .\GZ-Models\*.def
-del /F .\GZ-Models\7za.exe
-RD /Q /S .\GZ-Models\Models
-RD /Q /S .\GZ-Models\Hires
-
-move  /Y .\GZ-Models\GZ-Models.pk3 GZ-Models.pk3
+RD /Q /S .\Temp\
 
 Echo //---------------------------//
 Echo //          D O N E          //
