@@ -54,11 +54,11 @@ Echo //   C O M P R E S S I N G   //
 Echo //---------------------------//
 
 cd .\GZ-Models\
-7za.exe a -t7z GZ-Models.pk3 *.def Models Hires
+7za.exe a -tzip GZ-Models.pk3 *.def Models Hires
 cd ..
 
 cd .\ST-Models\
-7za.exe a -t7z ST-Models.pk3 *.def Models Hires
+7za.exe a -tzip ST-Models.pk3 *.def Models Hires
 cd ..
 
 Echo //---------------------------//
