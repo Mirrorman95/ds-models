@@ -6,6 +6,8 @@ Simple Instructions:
 
 	Optional: Open the (GZ/ST)-Models/Build/ Folder. Delete what you do not want. Then go back to the extracted path.
 	1: Run one of the Batch (.bat) files
+		A: ^ Only if you are using windows
+		B: If you are using linux, ' chmod 775 Build-ST-Complete.sh ' then proceed to 2
 	2: Wait for the process to finish
 	3: Copy the PK3 (.pk3) files into your Skins Folder
 	4: ???
