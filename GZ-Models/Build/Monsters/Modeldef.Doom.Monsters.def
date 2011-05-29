@@ -177,84 +177,9 @@ Model Fatso
 Model Fatso
 { 
    Path "Models\Monsters\Fatso"
-   Skin 0 "mancDIE2.png"
-   Skin 1 "Manc.png"
-   Model 0 "Mancdeath_4.md2"
-   Model 1 "Mancdeath_4_guns.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-
-   FrameIndex FATT P 0 1
-   FrameIndex FATT Q 0 2
-   FrameIndex FATT R 0 4
-   FrameIndex FATT S 0 5
-   FrameIndex FATT T 0 6
-
-}
-Model Fatso
-{ 
-   Path "Models\Monsters\Fatso"
-   Skin 0 "mancDIE0.png"
-   Skin 1 "Manc.png"
-   Model 0 "Mancdeath_2.md2"
-   Model 1 "Mancdeath_2_guns.md2"
-   Scale 1.25 1.25 1.25
-
-NOINTERPOLATION
-   FrameIndex FATT N 0 6    FrameIndex FATT N 1 6
-   FrameIndex FATT O 0 7    FrameIndex FATT O 1 7
-
-}
-Model Fatso
-{ 
-   Path "Models\Monsters\Fatso"
-   Skin 0 "MancDIE0.png"
-   Skin 1 "Manc.png"
-   Skin 2 "MancE1.PNG"
-   Model 0 "Mancdeath_1.md2"
-   Model 1 "Mancdeath_1_guns.md2"
-   Model 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex FATT K 0 0    FrameIndex FATT K 1 0	FrameIndex FATT K 2 0
-
-}
-Model Fatso
-{ 
-   Path "Models\Monsters\Fatso"
-   Skin 0 "MancDIE0.png"
-   Skin 1 "Manc.png"
-   Skin 2 "MancE2.PNG"
-   Model 0 "Mancdeath_1.md2"
-   Model 1 "Mancdeath_1_guns.md2"
-   Model 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex FATT L 0 2    FrameIndex FATT L 1 2	FrameIndex FATT L 2 2
-
-}
-Model Fatso
-{ 
-   Path "Models\Monsters\Fatso"
-   Skin 0 "MancDIE0.png"
-   Skin 1 "Manc.png"
-   Skin 2 "MancE3.PNG"
-   Model 0 "Mancdeath_1.md2"
-   Model 1 "Mancdeath_1_guns.md2"
-   Model 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex FATT M 0 4    FrameIndex FATT M 1 4	FrameIndex FATT M 2 4
-
-}
-
-Model Fatso
-{ 
-   Path "Models\Monsters\Fatso"
    Skin 0 "MancFire.png"
    Model 0 "Manc.md2"
    Scale 1.25 1.25 1.25
-
    FrameIndex FATT H 0 7
 
 }
@@ -265,9 +190,51 @@ Model Fatso
    Skin 0 "MancFire2.png"
    Model 0 "Manc.md2"
    Scale 1.25 1.25 1.25
-
    FrameIndex FATT I 0 8
+}
 
+
+Model Fatso
+{ 
+   Path "Models\Monsters\Fatso"
+   Skin 0 "mancDIE0.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_2.md2"
+   Model 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex FATT K 0 4    FrameIndex FATT K 1 4
+   FrameIndex FATT L 0 5    FrameIndex FATT L 1 5
+   FrameIndex FATT M 0 6    FrameIndex FATT M 1 6
+}
+
+Model Fatso
+{ 
+   Path "Models\Monsters\Fatso"
+   Skin 0 "mancDIE0.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_2.md2"
+   Model 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+   NOINTERPOLATION
+   FrameIndex FATT N 0 7    FrameIndex FATT N 1 7
+}
+
+Model Fatso
+{ 
+   Path "Models\Monsters\Fatso"
+   Skin 0 "mancDIE2.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_4.md2"
+   Model 1 "Mancdeath_4_guns.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex FATT O 0 0
+   FrameIndex FATT P 0 1
+   FrameIndex FATT Q 0 2
+   FrameIndex FATT R 0 4
+   FrameIndex FATT S 0 5
+   FrameIndex FATT T 0 6
 }
 
 Model ArchVile
@@ -915,37 +882,84 @@ Model DEADCACODEMON
 Model DEMON
 { 
    Path "Models\Monsters\Demon"
-   Skin 1 "Skindemondie.png"
-   Skin 0 "Skindemon.png"
-   Model 0 "base.md2"
-   Model 1 "Death.md2"
-   Scale 1.0 1.0 1.0
+   Model 0 "Pinky.md3"
+   Skin 0 "Pinky.png"
+   Scale 1.5 1.5 1.5
 
 
-   FrameIndex SARG A 0 2	FrameIndex SARG A 1 999
-   FrameIndex SARG B 0 4	FrameIndex SARG B 1 999
-   FrameIndex SARG C 0 7	FrameIndex SARG C 1 999
-   FrameIndex SARG D 0 9	FrameIndex SARG D 1 999
-   FrameIndex SARG E 0 13	FrameIndex SARG E 1 999
-   FrameIndex SARG F 0 14	FrameIndex SARG F 1 999
-   FrameIndex SARG G 0 15	FrameIndex SARG G 1 999
-   FrameIndex SARG H 0 18	FrameIndex SARG H 1 999
-   FrameIndex SARG I 0 999	FrameIndex SARG I 1 0
-   FrameIndex SARG J 0 999	FrameIndex SARG J 1 1
-   FrameIndex SARG K 0 999	FrameIndex SARG K 1 2
-   FrameIndex SARG L 0 999	FrameIndex SARG L 1 3
-   FrameIndex SARG M 0 999	FrameIndex SARG M 1 4
-   FrameIndex SARG N 0 999	FrameIndex SARG N 1 5
+   FrameIndex SARG A 0 0
+   FrameIndex SARG B 0 4
+   FrameIndex SARG C 0 8
+   FrameIndex SARG D 0 12
+   FrameIndex SARG E 0 20
+   FrameIndex SARG F 0 22
+   FrameIndex SARG G 0 24
+   FrameIndex SARG H 0 28
+
+}
+
+Model DEMON
+{ 
+   Path "Models\Monsters\Demon"
+   Model 0 "Pinky.md3"
+   Skin 0 "PinkyDead.png"
+   Scale 1.5 1.5 1.5
+
+
+   FrameIndex SARG I 0 35
+   FrameIndex SARG J 0 36
+   FrameIndex SARG K 0 37
+   FrameIndex SARG L 0 40
+   FrameIndex SARG M 0 41
+   FrameIndex SARG N 0 42
+
 }
 
 Model DeadDemon
 { 
    Path "Models\Monsters\Demon"
-   Skin 1 "Skindemondie.png"
-   Model 1 "Death.md2"
-   Scale 1.0 1.0 1.0
-FrameIndex SARG N 1 5
+   Model 0 "Pinky.md3"
+   Skin 0 "PinkyDead.png"
+   Scale 1.5 1.5 1.5
+   FrameIndex SARG N 0 46
 }
+
+Model Spectre
+{ 
+   Path "Models\Monsters\Demon"
+   Model 0 "Pinky.md3"
+   Skin 0 "Spectre.png"
+   Scale 1.5 1.5 1.5
+
+
+   FrameIndex SARG A 0 0
+   FrameIndex SARG B 0 4
+   FrameIndex SARG C 0 8
+   FrameIndex SARG D 0 12
+   FrameIndex SARG E 0 20
+   FrameIndex SARG F 0 22
+   FrameIndex SARG G 0 24
+   FrameIndex SARG H 0 32
+
+}
+
+Model Spectre
+{ 
+   Path "Models\Monsters\Demon"
+   Model 0 "Pinky.md3"
+   Skin 0 "SpectreDead.png"
+   Scale 1.5 1.5 1.5
+
+
+   FrameIndex SARG I 0 35
+   FrameIndex SARG J 0 36
+   FrameIndex SARG K 0 37
+   FrameIndex SARG L 0 40
+   FrameIndex SARG M 0 41
+   FrameIndex SARG N 0 42
+
+}
+
 Model DOOMIMP
 { 
    Path "Models\Monsters\DoomImp"
