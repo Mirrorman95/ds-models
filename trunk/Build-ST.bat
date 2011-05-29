@@ -29,9 +29,8 @@ Echo //   C O M P R E S S I N G   //
 Echo //---------------------------//
 
 cd .\Temp\
-7za.exe a -tzip ST-Models-Complete.pk3 *.def Models Hires
+7za.exe a -tzip ST-Models.pk3 *.def Models Hires
 cd ..
-
 Echo //---------------------------//
 Echo //   C L E A N I N G   U P   //
 Echo //---------------------------//

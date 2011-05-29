@@ -1,8 +1,8 @@
-Model HECTEBUS
+Model Hectebus
 { 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "Manc2.png"
-   MODEL 0 "MANC.md2"
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "Manc.png"
+   Model 0 "MANC.md2"
    Scale 1.25 1.25 1.25
 
 
@@ -14,93 +14,71 @@ Model HECTEBUS
    FrameIndex HECT F 0 5
    FrameIndex HECT G 0 6
 
-   FrameIndex HECT I 0 8
+
    FrameIndex HECT J 0 9
 }
 
-Model HECTEBUS
+Model Hectebus
 { 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "mancDIE22.png"
-   SKIN 1 "Manc2.png"
-   MODEL 0 "Mancdeath_4.md2"
-   MODEL 1 "Mancdeath_4_guns.md2"
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "MancFire.png"
+   Model 0 "Manc.md2"
    Scale 1.25 1.25 1.25
-NOINTERPOLATION
+   FrameIndex HECT H 0 7
 
+}
+
+Model Hectebus
+{ 
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "MancFire2.png"
+   Model 0 "Manc.md2"
+   Scale 1.25 1.25 1.25
+   FrameIndex HECT I 0 8
+}
+
+
+Model Hectebus
+{ 
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "mancDIE0.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_2.md2"
+   Model 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex HECT K 0 4    FrameIndex HECT K 1 4
+   FrameIndex HECT L 0 5    FrameIndex HECT L 1 5
+   FrameIndex HECT M 0 6    FrameIndex HECT M 1 6
+}
+
+Model Hectebus
+{ 
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "mancDIE0.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_2.md2"
+   Model 1 "Mancdeath_2_guns.md2"
+   Scale 1.25 1.25 1.25
+   NOINTERPOLATION
+   FrameIndex HECT N 0 7    FrameIndex HECT N 1 7
+}
+
+Model Hectebus
+{ 
+   Path "Models\Monsters\Hectebus"
+   Skin 0 "mancDIE2.png"
+   Skin 1 "Manc.png"
+   Model 0 "Mancdeath_4.md2"
+   Model 1 "Mancdeath_4_guns.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex HECT O 0 0
    FrameIndex HECT P 0 1
    FrameIndex HECT Q 0 2
    FrameIndex HECT R 0 4
    FrameIndex HECT S 0 5
    FrameIndex HECT T 0 6
-
-}
-Model HECTEBUS
-{ 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "mancDIE02.png"
-   SKIN 1 "Manc2.png"
-   MODEL 0 "Mancdeath_2.md2"
-   MODEL 1 "Mancdeath_2_guns.md2"
-   Scale 1.25 1.25 1.25
-
-NOINTERPOLATION
-   FrameIndex HECT N 0 6    FrameIndex HECT N 1 6
-   FrameIndex HECT O 0 7    FrameIndex HECT O 1 7
-
-}
-Model HECTEBUS
-{ 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "MancDIE02.png"
-   SKIN 1 "Manc2.png"
-   SKIN 2 "MancE1.PNG"
-   MODEL 0 "Mancdeath_1.md2"
-   MODEL 1 "Mancdeath_1_guns.md2"
-   MODEL 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex HECT K 0 0    FrameIndex HECT K 1 0	FrameIndex HECT K 2 0
-
-}
-Model HECTEBUS
-{ 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "MancDIE02.png"
-   SKIN 1 "Manc2.png"
-   SKIN 2 "MancE2.PNG"
-   MODEL 0 "Mancdeath_1.md2"
-   MODEL 1 "Mancdeath_1_guns.md2"
-   MODEL 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex HECT L 0 2    FrameIndex HECT L 1 2	FrameIndex HECT L 2 2
-
-}
-Model HECTEBUS
-{ 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "MancDIE02.png"
-   SKIN 1 "Manc2.png"
-   SKIN 2 "MancE3.PNG"
-   MODEL 0 "Mancdeath_1.md2"
-   MODEL 1 "Mancdeath_1_guns.md2"
-   MODEL 2 "Mancdeath_1_explo.md2"
-   Scale 1.25 1.25 1.25
-NOINTERPOLATION
-   FrameIndex HECT M 0 4    FrameIndex HECT M 1 4	FrameIndex HECT M 2 4
-
-}
-
-Model HECTEBUS
-{ 
-   Path "Models/Monsters/HECTEBUS"
-   SKIN 0 "Mancfire2.png"
-   MODEL 0 "Manc.md2"
-   Scale 1.25 1.25 1.25
-
-   FrameIndex HECT H 0 7
-
 }
 
 Model belphegor
@@ -513,31 +491,43 @@ Model Abaddon
 
 
 
-Model BloodDEMON
+Model BloodDemon
 { 
-   Path "Models/Monsters/BloodDemon"
-   SKIN 0 "Skindemon.png"
-   SKIN 1 "Skindemondie.png"
-   MODEL 0 "base.md2"
-   MODEL 1 "Death.md2"
-   Scale 1.0 1.0 1.0
+   Path "Models\Monsters\BloodDemon"
+   Model 0 "Pinky.md3"
+   Skin 0 "BloodPinky.png"
+   Scale 1.5 1.5 1.5
 
 
-   FrameIndex SRG2 A 0 2	FrameIndex SRG2 A 1 999
-   FrameIndex SRG2 B 0 4	FrameIndex SRG2 B 1 999
-   FrameIndex SRG2 C 0 7	FrameIndex SRG2 C 1 999
-   FrameIndex SRG2 D 0 9	FrameIndex SRG2 D 1 999
-   FrameIndex SRG2 E 0 13	FrameIndex SRG2 E 1 999
-   FrameIndex SRG2 F 0 14	FrameIndex SRG2 F 1 999
-   FrameIndex SRG2 G 0 15	FrameIndex SRG2 G 1 999
-   FrameIndex SRG2 H 0 18	FrameIndex SRG2 H 1 999
-   FrameIndex SRG2 I 0 999	FrameIndex SRG2 I 1 0
-   FrameIndex SRG2 J 0 999	FrameIndex SRG2 J 1 1
-   FrameIndex SRG2 K 0 999	FrameIndex SRG2 K 1 2
-   FrameIndex SRG2 L 0 999	FrameIndex SRG2 L 1 3
-   FrameIndex SRG2 M 0 999	FrameIndex SRG2 M 1 4
-   FrameIndex SRG2 N 0 999	FrameIndex SRG2 N 1 5
+   FrameIndex SRG2 A 0 0
+   FrameIndex SRG2 B 0 4
+   FrameIndex SRG2 C 0 8
+   FrameIndex SRG2 D 0 12
+   FrameIndex SRG2 E 0 20
+   FrameIndex SRG2 F 0 22
+   FrameIndex SRG2 G 0 24
+   FrameIndex SRG2 H 0 28
+
 }
+
+Model BloodDemon
+{ 
+   Path "Models\Monsters\BloodDemon"
+   Model 0 "Pinky.md3"
+   Skin 0 "BloodPinkyDead.png"
+   Scale 1.5 1.5 1.5
+
+
+   FrameIndex SRG2 I 0 35
+   FrameIndex SRG2 J 0 36
+   FrameIndex SRG2 K 0 37
+   FrameIndex SRG2 L 0 40
+   FrameIndex SRG2 M 0 41
+   FrameIndex SRG2 N 0 42
+
+}
+
+
 Model DARKIMP
 { 
    Path "Models/Monsters/DarkImp"

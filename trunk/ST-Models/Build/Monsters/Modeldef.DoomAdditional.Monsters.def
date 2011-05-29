@@ -1,0 +1,55 @@
+Model CommanderKeen
+{ 
+   Path "Models\Monsters\CommanderKeen"
+   Model 0 "Keen.md2"
+   Skin 0 "Keen0.png"
+   Scale -0.5 0.5 0.5
+
+	ALIGNANGLE
+
+ZOffset 0.1
+
+   FrameIndex KEEN A 0 0
+}
+
+Model CommanderKeen
+{ 
+   Path "Models\Monsters\CommanderKeen"
+   Model 0 "Keen.md2"
+   Skin 0 "Keen1.png"
+   Scale -0.5 0.5 0.5
+
+	ALIGNANGLE
+
+ZOffset 0.1
+   FrameIndex KEEN B 0 0
+   FrameIndex KEEN C 0 1
+   FrameIndex KEEN D 0 2
+   FrameIndex KEEN E 0 3
+   FrameIndex KEEN F 0 4
+
+   FrameIndex KEEN M 0 0
+}
+
+Model CommanderKeen
+{ 
+   Path "Models\Monsters\CommanderKeen"
+   Model 0 "Keen.md2"
+   Skin 0 "Keen2.png"
+   Model 1 "Keen_Meat.md2"
+   Skin 1 "Keen_Meat.pcx"
+
+	ZOffset 0.1
+   Scale -0.5 0.5 0.5
+
+	ALIGNANGLE
+
+   FrameIndex KEEN G 0 5   FrameIndex KEEN G 1 0
+   FrameIndex KEEN H 0 6   FrameIndex KEEN H 1 1
+   FrameIndex KEEN I 0 7   FrameIndex KEEN I 1 2
+   FrameIndex KEEN J 0 8   FrameIndex KEEN J 1 3
+   FrameIndex KEEN K 0 9   FrameIndex KEEN K 1 4
+   FrameIndex KEEN L 0 10   FrameIndex KEEN L 1 4
+
+}
+
