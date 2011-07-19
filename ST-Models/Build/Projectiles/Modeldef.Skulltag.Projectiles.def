@@ -81,13 +81,13 @@ Model AbaddonBall
 { 
 	Path "Models/Projectiles/Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "AbaddonShot1.tga"
+	Skin 0 "AbaddonShot1.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "AbaddonSphere1.tga"
+	Skin 1 "AbaddonSphere1.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "AbaddonShot_Glow.tga"
+	Skin 2 "AbaddonShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating
@@ -104,13 +104,13 @@ Model AbaddonBall
 { 
 	Path "Models/Projectiles/Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "AbaddonShot2.tga"
+	Skin 0 "AbaddonShot2.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "AbaddonSphere2.tga"
+	Skin 1 "AbaddonSphere2.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "AbaddonShot_Glow.tga"
+	Skin 2 "AbaddonShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating
@@ -155,13 +155,13 @@ Model CacolanternBall
 { 
 	Path "Models/Projectiles/Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "CacolanternShot1.tga"
+	Skin 0 "CacolanternShot1.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "CacolanternSphere1.tga"
+	Skin 1 "CacolanternSphere1.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "CacolanternShot_Glow.tga"
+	Skin 2 "CacolanternShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating
@@ -178,13 +178,13 @@ Model CacolanternBall
 { 
 	Path "Models/Projectiles/Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "CacolanternShot2.tga"
+	Skin 0 "CacolanternShot2.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "CacolanternSphere2.tga"
+	Skin 1 "CacolanternSphere2.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "CacolanternShot_Glow.tga"
+	Skin 2 "CacolanternShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating

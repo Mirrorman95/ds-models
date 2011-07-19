@@ -1,4 +1,4 @@
-
+h
 Model PlasmaBall
 { 
 	Path "Models\Projectiles\PlasmaBalls"
@@ -161,13 +161,13 @@ Model CacodemonBall
 { 
 	Path "Models\Projectiles\Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "CacoShot1.tga"
+	Skin 0 "CacoShot1.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "CacoSphere1.tga"
+	Skin 1 "CacoSphere1.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "CacoShot_Glow.tga"
+	Skin 2 "CacoShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating
@@ -184,13 +184,13 @@ Model CacodemonBall
 { 
 	Path "Models\Projectiles\Caco-FireBall"
 	Model 0 "CacoShot.md2"
-	Skin 0 "CacoShot2.tga"
+	Skin 0 "CacoShot2.png"
 
 	Model 1 "CacoShotSphere.md2"
-	Skin 1 "CacoSphere2.tga"
+	Skin 1 "CacoSphere2.png"
 
 	Model 2 "CacoShot_Glow.md2"
-	Skin 2 "CacoShot_Glow.tga"
+	Skin 2 "CacoShot_Glow.png"
 	Scale 0.5 -0.5 0.6
 
 	Rotating

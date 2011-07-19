@@ -989,16 +989,6 @@ Model DOOMIMP
    FrameIndex TROO G 0 13	   FrameIndex TROO G 1 13
 }
 
-
-Model DeadDOOMIMP
-{ 
-   Path "Models\Monsters\DoomImp"
-   Skin 0 "IMP_Pain2.png"
-   Model 0 "ImpDeath.md2"
-   Scale 1.25 1.25 1.25
-
-   FrameIndex TROO M 0 6
-}
 Model DOOMIMP
 { 
    Path "Models\Monsters\DoomImp"
@@ -1021,6 +1011,16 @@ Model DOOMIMP
    FrameIndex TROO S 1 999	FrameIndex TROO S 2 8
    FrameIndex TROO T 1 999	FrameIndex TROO T 2 8
    FrameIndex TROO U 1 999	FrameIndex TROO U 2 8
+}
+
+Model DeadDOOMIMP
+{ 
+   Path "Models\Monsters\DoomImp"
+   Skin 0 "IMP_Pain2.png"
+   Model 0 "ImpDeath.md2"
+   Scale 1.25 1.25 1.25
+
+   FrameIndex TROO M 0 6
 }
 
 
