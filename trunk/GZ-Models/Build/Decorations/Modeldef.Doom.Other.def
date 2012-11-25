@@ -979,7 +979,7 @@ Model Stalagtite
    Path "Models\decoration\tree"
    model 0 "Stalag.md2"
    skin 0 "Stalag.png"
-   scale 1.0 1.0 1.0
+   scale 2.0 2.0 2.0
 
    FrameIndex SMIT A 0 0
 }

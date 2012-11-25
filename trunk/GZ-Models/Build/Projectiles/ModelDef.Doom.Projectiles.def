@@ -78,7 +78,7 @@ Model BFGBall
 	Scale 1.25 1.25 1.5
 
 	Rotating
-	Rotation-Speed 5
+	Rotation-Speed 10
 	Rotation-Vector 1 0 0
 	PitchFromMomentum
 	NOINTERPOLATION
