@@ -209,7 +209,7 @@ Model Stalagmite
    Path "Models/decoration/tree"
    model 0 "Stalag.md2"
    skin 0 "StalagGrey.png"
-   scale 1.0 1.0 1.5
+   scale 1.5 1.5 2.0
 
    FrameIndex SMT2 A 0 0
 }

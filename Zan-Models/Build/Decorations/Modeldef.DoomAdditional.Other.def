@@ -1,0 +1,91 @@
+Model EvilEye
+{
+   Path "Models\Decoration\Lights\Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circle.png"
+   Skin 2 "candlestik.png"
+   skin 3 "candleflame1.png"
+
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYE A 0 0	   FrameIndex CEYE A 1 10	   FrameIndex CEYE A 2 0	   FrameIndex CEYE A 3 0
+}
+Model EvilEye
+{
+   Path "Models\Decoration\Lights\Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circle2.png"
+   Skin 2 "candlestik.png"
+   skin 3 "candleflame1.png"
+
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYE B 0 2	   FrameIndex CEYE B 1 10	   FrameIndex CEYE B 2 0	   FrameIndex CEYE B 3 0
+}
+Model EvilEye
+{
+   Path "Models\Decoration\Lights\Flaming"
+   model 0 "EvilEye.md2"
+   model 1 "EvilEye_Circle.md2"
+   model 2 "Candlestick.md2"
+   model 3 "Candleflame.md3"
+   skin 0 "EvilEye.png"
+   skin 1 "EvilEye_Circle3.png"
+   Skin 2 "candlestik.png"
+   skin 3 "candleflame1.png"
+
+   scale -0.5 -0.5 0.5
+	ALIGNANGLE
+
+   FrameIndex CEYE C 0 4	   FrameIndex CEYE C 1 10	   FrameIndex CEYE C 2 0	   FrameIndex CEYE C 3 0
+}
+
+Model Blood
+{
+	path "Models/Decoration/Blood"
+
+	model 0 "Blood.md3"
+	skin 0 "BLD1D0.png"
+	Scale 1.25 1.25 1.25
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BLUD A 0 2
+}
+Model Blood
+{
+	path "Models/Decoration/Blood"
+
+	model 0 "Blood.md3"
+	skin 0 "BLD1C0.png"
+	Scale 1.25 1.25 1.25
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BLUD B 0 1
+}
+Model Blood
+{
+	path "Models/Decoration/Blood"
+
+	model 0 "Blood.md3"
+	skin 0 "BLD1A0.png"
+	Scale 1.25 1.25 1.25
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	frameindex BLUD C 0 0
+}

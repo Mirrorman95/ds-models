@@ -1,0 +1,250 @@
+
+Model Sorcerer2FX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	model 1 "Bolt.md3"
+	skin 0 "plasma_Blue.png"
+	skin 1 "Bolt_Blue.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX16 G 0 0   FrameIndex FX16 G 1 0
+   FrameIndex FX16 H 0 1   FrameIndex FX16 H 1 1
+   FrameIndex FX16 I 0 2   FrameIndex FX16 I 1 2
+   FrameIndex FX16 J 0 3   FrameIndex FX16 J 1 3
+   FrameIndex FX16 K 0 4   FrameIndex FX16 K 1 1
+   FrameIndex FX16 L 0 5   FrameIndex FX16 L 1 999
+
+}
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm0.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2"BFGShotSphere.md2"
+	skin 2"BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 A 0 0
+}
+
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm1.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2 "BFGShotSphere.md2"
+	skin 2 "BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 B 0 0
+}
+Model Sorcerer2FX2
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	skin 0 "plasma_Purple.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX11 C 0 1
+   FrameIndex FX11 D 0 2
+   FrameIndex FX11 E 0 3
+   FrameIndex FX11 F 0 4
+   FrameIndex FX11 G 0 5
+}
+
+Model GoldWandFX1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model GoldWandFX2
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff1.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 A 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff2.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 B 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff3.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 C 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff4.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 D 0 0
+}
+Model GoldWandPuff1
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandpuff.md3"
+	Skin 0 "gwandpuff5.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+	ALIGNPITCH
+
+	FrameIndex PUF2 E 0 0
+}
+
+Model GoldWandPuff2
+{
+	Path "Models\Projectiles\WandFx"
+	Model 0 "gwandfx2.md3"
+	Skin 0 "gwand0.tga"
+
+	Scale 20.0 20.0 20.0
+	
+	ALIGNANGLE
+
+	FrameIndex FX01 E 0 0
+	FrameIndex FX01 F 0 2
+	FrameIndex FX01 G 0 4
+	FrameIndex FX01 H 0 6
+}
+
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm0.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2"BFGShotSphere.md2"
+	skin 2"BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 A 0 0
+}
+
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "BFGShot.md2"
+	skin 0 "wizm1.png"
+	model 1 "BFGShot_Glow.md2"
+	skin 1 "WizardShot_Glow.png"
+	model 2 "BFGShotSphere.md2"
+	skin 2 "BFGSphere.png"
+   Scale 0.25 -0.25 0.25
+
+	PitchFromMomentum
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+
+
+   FrameIndex FX11 B 0 0
+}
+Model WizardFX1
+{ 
+	path "Models\Projectiles\PlasmaBalls"
+	model 0 "Plasma_Boom.md3"
+	skin 0 "plasma_Purple.png"
+   Scale 1.0 1.0 1.0
+
+	ALIGNANGLE
+	ALIGNPITCH
+
+   FrameIndex FX11 C 0 1
+   FrameIndex FX11 D 0 2
+   FrameIndex FX11 E 0 3
+   FrameIndex FX11 F 0 4
+   FrameIndex FX11 G 0 5
+}
